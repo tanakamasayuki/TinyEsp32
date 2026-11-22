@@ -1,0 +1,856 @@
+[
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/Esp.cpp",
+    "language": ".cpp",
+    "median_cpu": 2.3809769999999997,
+    "median_wall": 2.6970226070843637,
+    "cpu_samples": [
+      2.3809769999999997,
+      2.337493,
+      2.477447
+    ],
+    "median_maxrss_kib": 167896,
+    "object_bytes": 173112,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/WString.cpp",
+    "language": ".cpp",
+    "median_cpu": 2.018075,
+    "median_wall": 4.564502838999033,
+    "cpu_samples": [
+      2.135192,
+      1.9917879999999997,
+      2.018075
+    ],
+    "median_maxrss_kib": 121820,
+    "object_bytes": 240856,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/HWCDC.cpp",
+    "language": ".cpp",
+    "median_cpu": 1.802947,
+    "median_wall": 3.676202496048063,
+    "cpu_samples": [
+      1.802947,
+      1.7631459999999999,
+      1.803037
+    ],
+    "median_maxrss_kib": 121892,
+    "object_bytes": 175676,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/USBCDC.cpp",
+    "language": ".cpp",
+    "median_cpu": 1.6769599999999998,
+    "median_wall": 3.1116052488796413,
+    "cpu_samples": [
+      1.709483,
+      1.6425010000000002,
+      1.6769599999999998
+    ],
+    "median_maxrss_kib": 126592,
+    "object_bytes": 157892,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/HardwareSerial.cpp",
+    "language": ".cpp",
+    "median_cpu": 1.656869,
+    "median_wall": 2.856942425016314,
+    "cpu_samples": [
+      1.693452,
+      1.656869,
+      1.604207
+    ],
+    "median_maxrss_kib": 118356,
+    "object_bytes": 156004,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/USB.cpp",
+    "language": ".cpp",
+    "median_cpu": 1.595503,
+    "median_wall": 2.830938438884914,
+    "cpu_samples": [
+      1.595503,
+      1.4403899999999998,
+      1.6296249999999999
+    ],
+    "median_maxrss_kib": 122576,
+    "object_bytes": 138144,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/Print.cpp",
+    "language": ".cpp",
+    "median_cpu": 1.565745,
+    "median_wall": 2.6343817887827754,
+    "cpu_samples": [
+      1.565745,
+      1.4819,
+      1.5941789999999998
+    ],
+    "median_maxrss_kib": 115020,
+    "object_bytes": 112948,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/Stream.cpp",
+    "language": ".cpp",
+    "median_cpu": 1.52524,
+    "median_wall": 3.9572711810469627,
+    "cpu_samples": [
+      1.52524,
+      1.568485,
+      1.484353
+    ],
+    "median_maxrss_kib": 114480,
+    "object_bytes": 81920,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/USBHost.cpp",
+    "language": ".cpp",
+    "median_cpu": 1.5184229999999999,
+    "median_wall": 3.9357822253368795,
+    "cpu_samples": [
+      1.5184229999999999,
+      1.5813349999999997,
+      1.384065
+    ],
+    "median_maxrss_kib": 119400,
+    "object_bytes": 41792,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/MacAddress.cpp",
+    "language": ".cpp",
+    "median_cpu": 1.500411,
+    "median_wall": 3.0915974900126457,
+    "cpu_samples": [
+      1.50396,
+      1.500411,
+      1.4732459999999998
+    ],
+    "median_maxrss_kib": 114016,
+    "object_bytes": 83840,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/StreamString.cpp",
+    "language": ".cpp",
+    "median_cpu": 1.421703,
+    "median_wall": 2.9527697856537998,
+    "cpu_samples": [
+      1.378024,
+      1.421703,
+      1.492593
+    ],
+    "median_maxrss_kib": 113552,
+    "object_bytes": 78388,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/chip-debug-report.cpp",
+    "language": ".cpp",
+    "median_cpu": 1.4160879999999998,
+    "median_wall": 2.187492424622178,
+    "cpu_samples": [
+      1.4160879999999998,
+      1.383807,
+      1.438636
+    ],
+    "median_maxrss_kib": 116260,
+    "object_bytes": 90340,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/Tone.cpp",
+    "language": ".cpp",
+    "median_cpu": 1.402637,
+    "median_wall": 3.117786174174398,
+    "cpu_samples": [
+      1.331782,
+      1.402637,
+      1.503297
+    ],
+    "median_maxrss_kib": 111540,
+    "object_bytes": 39912,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/base64.cpp",
+    "language": ".cpp",
+    "median_cpu": 1.396638,
+    "median_wall": 3.3124739537015557,
+    "cpu_samples": [
+      1.396638,
+      1.368031,
+      1.4853459999999998
+    ],
+    "median_maxrss_kib": 111476,
+    "object_bytes": 50928,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/FunctionalInterrupt.cpp",
+    "language": ".cpp",
+    "median_cpu": 1.374622,
+    "median_wall": 2.4505719314329326,
+    "cpu_samples": [
+      1.374622,
+      1.385093,
+      1.3202660000000002
+    ],
+    "median_maxrss_kib": 110864,
+    "object_bytes": 38396,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/main.cpp",
+    "language": ".cpp",
+    "median_cpu": 1.3153190000000001,
+    "median_wall": 2.4778217747807503,
+    "cpu_samples": [
+      1.306543,
+      1.3153190000000001,
+      1.356419
+    ],
+    "median_maxrss_kib": 110556,
+    "object_bytes": 35912,
+    "gcc": {}
+  },
+  {
+    "file": "/tmp/tinyesp32-survey-o_sr4ske/build/sketch/Minimal.ino.cpp",
+    "language": ".cpp",
+    "median_cpu": 1.284878,
+    "median_wall": 1.8866467173211277,
+    "cpu_samples": [
+      1.3658139999999999,
+      1.2586739999999998,
+      1.284878
+    ],
+    "median_maxrss_kib": 108996,
+    "object_bytes": 23296,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-uart.c",
+    "language": ".c",
+    "median_cpu": 1.07301,
+    "median_wall": 2.0418398529291153,
+    "cpu_samples": [
+      1.0401509999999998,
+      1.07301,
+      1.1224280000000002
+    ],
+    "median_maxrss_kib": 53560,
+    "object_bytes": 235872,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-spi.c",
+    "language": ".c",
+    "median_cpu": 0.86934,
+    "median_wall": 2.0230290056206286,
+    "cpu_samples": [
+      0.86934,
+      0.8152109999999999,
+      0.878451
+    ],
+    "median_maxrss_kib": 51348,
+    "object_bytes": 163140,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/FirmwareMSC.cpp",
+    "language": ".cpp",
+    "median_cpu": 0.724725,
+    "median_wall": 1.6502961590886116,
+    "cpu_samples": [
+      0.704244,
+      0.724725,
+      0.7452829999999999
+    ],
+    "median_maxrss_kib": 68352,
+    "object_bytes": 82236,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/USBMSC.cpp",
+    "language": ".cpp",
+    "median_cpu": 0.713833,
+    "median_wall": 0.7985291038639843,
+    "cpu_samples": [
+      0.7125759999999999,
+      0.713833,
+      0.8999359999999998
+    ],
+    "median_maxrss_kib": 73344,
+    "object_bytes": 59368,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-tinyusb.c",
+    "language": ".c",
+    "median_cpu": 0.574626,
+    "median_wall": 0.9224051903001964,
+    "cpu_samples": [
+      0.574626,
+      0.559039,
+      0.605243
+    ],
+    "median_maxrss_kib": 55012,
+    "object_bytes": 133496,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/IPAddress.cpp",
+    "language": ".cpp",
+    "median_cpu": 0.5218879999999999,
+    "median_wall": 1.0548871159553528,
+    "cpu_samples": [
+      0.5218879999999999,
+      0.504892,
+      0.522207
+    ],
+    "median_maxrss_kib": 46100,
+    "object_bytes": 99460,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-i2c-slave.c",
+    "language": ".c",
+    "median_cpu": 0.49584799999999996,
+    "median_wall": 0.8927815449424088,
+    "cpu_samples": [
+      0.475314,
+      0.5023909999999999,
+      0.49584799999999996
+    ],
+    "median_maxrss_kib": 44264,
+    "object_bytes": 118480,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-ledc.c",
+    "language": ".c",
+    "median_cpu": 0.388152,
+    "median_wall": 0.5245918589644134,
+    "cpu_samples": [
+      0.388152,
+      0.41826599999999997,
+      0.368104
+    ],
+    "median_maxrss_kib": 40168,
+    "object_bytes": 81468,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-adc.c",
+    "language": ".c",
+    "median_cpu": 0.375613,
+    "median_wall": 0.6713742017745972,
+    "cpu_samples": [
+      0.357037,
+      0.375613,
+      0.401541
+    ],
+    "median_maxrss_kib": 38260,
+    "object_bytes": 69796,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-rmt.c",
+    "language": ".c",
+    "median_cpu": 0.36457999999999996,
+    "median_wall": 0.81339056417346,
+    "cpu_samples": [
+      0.36457999999999996,
+      0.35491700000000004,
+      0.37014
+    ],
+    "median_maxrss_kib": 40376,
+    "object_bytes": 70476,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-misc.c",
+    "language": ".c",
+    "median_cpu": 0.339676,
+    "median_wall": 0.8354186536744237,
+    "cpu_samples": [
+      0.34183199999999997,
+      0.339676,
+      0.336111
+    ],
+    "median_maxrss_kib": 39708,
+    "object_bytes": 60156,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-touch-ng.c",
+    "language": ".c",
+    "median_cpu": 0.285823,
+    "median_wall": 0.4459525137208402,
+    "cpu_samples": [
+      0.314785,
+      0.27952899999999997,
+      0.285823
+    ],
+    "median_maxrss_kib": 36336,
+    "object_bytes": 58472,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-i2c-ng.c",
+    "language": ".c",
+    "median_cpu": 0.28052299999999997,
+    "median_wall": 0.48683986999094486,
+    "cpu_samples": [
+      0.326893,
+      0.277961,
+      0.28052299999999997
+    ],
+    "median_maxrss_kib": 36680,
+    "object_bytes": 45520,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/cbuf.cpp",
+    "language": ".cpp",
+    "median_cpu": 0.27771,
+    "median_wall": 0.4195930319838226,
+    "cpu_samples": [
+      0.27771,
+      0.29561099999999996,
+      0.26498099999999997
+    ],
+    "median_maxrss_kib": 37420,
+    "object_bytes": 41848,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-timer.c",
+    "language": ".c",
+    "median_cpu": 0.263625,
+    "median_wall": 0.7213920210488141,
+    "cpu_samples": [
+      0.23314200000000002,
+      0.26786899999999997,
+      0.263625
+    ],
+    "median_maxrss_kib": 34952,
+    "object_bytes": 39120,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-gpio.c",
+    "language": ".c",
+    "median_cpu": 0.261737,
+    "median_wall": 0.5479694628156722,
+    "cpu_samples": [
+      0.25227,
+      0.261737,
+      0.26959999999999995
+    ],
+    "median_maxrss_kib": 39064,
+    "object_bytes": 45492,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-time.c",
+    "language": ".c",
+    "median_cpu": 0.256248,
+    "median_wall": 0.5385678559541702,
+    "cpu_samples": [
+      0.250994,
+      0.257704,
+      0.256248
+    ],
+    "median_maxrss_kib": 37732,
+    "object_bytes": 21460,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-cpu.c",
+    "language": ".c",
+    "median_cpu": 0.252362,
+    "median_wall": 0.49471927899867296,
+    "cpu_samples": [
+      0.282842,
+      0.252362,
+      0.24784699999999998
+    ],
+    "median_maxrss_kib": 38396,
+    "object_bytes": 32504,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-bt.c",
+    "language": ".c",
+    "median_cpu": 0.20497500000000002,
+    "median_wall": 0.35464408434927464,
+    "cpu_samples": [
+      0.22374,
+      0.196023,
+      0.20497500000000002
+    ],
+    "median_maxrss_kib": 34252,
+    "object_bytes": 29220,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/ColorFormat.c",
+    "language": ".c",
+    "median_cpu": 0.203119,
+    "median_wall": 0.3836878822185099,
+    "cpu_samples": [
+      0.199496,
+      0.21051399999999998,
+      0.203119
+    ],
+    "median_maxrss_kib": 29980,
+    "object_bytes": 44616,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/freertos_stats.cpp",
+    "language": ".cpp",
+    "median_cpu": 0.198507,
+    "median_wall": 0.4030373399145901,
+    "cpu_samples": [
+      0.194764,
+      0.198507,
+      0.200514
+    ],
+    "median_maxrss_kib": 36120,
+    "object_bytes": 15040,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/HEXBuilder.cpp",
+    "language": ".cpp",
+    "median_cpu": 0.188007,
+    "median_wall": 0.4197972281835973,
+    "cpu_samples": [
+      0.18536999999999998,
+      0.188007,
+      0.191712
+    ],
+    "median_maxrss_kib": 33576,
+    "object_bytes": 38708,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-periman.c",
+    "language": ".c",
+    "median_cpu": 0.187699,
+    "median_wall": 0.38872680021449924,
+    "cpu_samples": [
+      0.181252,
+      0.199236,
+      0.187699
+    ],
+    "median_maxrss_kib": 30344,
+    "object_bytes": 34712,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/firmware_msc_fat.c",
+    "language": ".c",
+    "median_cpu": 0.18215599999999998,
+    "median_wall": 0.2560966080054641,
+    "cpu_samples": [
+      0.18215599999999998,
+      0.175931,
+      0.187973
+    ],
+    "median_maxrss_kib": 30556,
+    "object_bytes": 35376,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/stdlib_noniso.c",
+    "language": ".c",
+    "median_cpu": 0.17967899999999998,
+    "median_wall": 0.4927730350755155,
+    "cpu_samples": [
+      0.17967899999999998,
+      0.18463799999999997,
+      0.179
+    ],
+    "median_maxrss_kib": 29764,
+    "object_bytes": 25388,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/wiring_pulse.c",
+    "language": ".c",
+    "median_cpu": 0.173406,
+    "median_wall": 0.42836327524855733,
+    "cpu_samples": [
+      0.167598,
+      0.173406,
+      0.18579099999999998
+    ],
+    "median_maxrss_kib": 35060,
+    "object_bytes": 11548,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-rgb-led.c",
+    "language": ".c",
+    "median_cpu": 0.172389,
+    "median_wall": 0.4317511389963329,
+    "cpu_samples": [
+      0.165658,
+      0.17646699999999998,
+      0.172389
+    ],
+    "median_maxrss_kib": 34120,
+    "object_bytes": 12200,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/MD5Builder.cpp",
+    "language": ".cpp",
+    "median_cpu": 0.169838,
+    "median_wall": 0.2709758481942117,
+    "cpu_samples": [
+      0.169838,
+      0.163974,
+      0.17130099999999998
+    ],
+    "median_maxrss_kib": 33048,
+    "object_bytes": 42400,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/wiring_shift.c",
+    "language": ".c",
+    "median_cpu": 0.167605,
+    "median_wall": 0.29552122857421637,
+    "cpu_samples": [
+      0.163275,
+      0.167605,
+      0.171422
+    ],
+    "median_maxrss_kib": 35260,
+    "object_bytes": 8460,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-sigmadelta.c",
+    "language": ".c",
+    "median_cpu": 0.157848,
+    "median_wall": 0.24377486761659384,
+    "cpu_samples": [
+      0.157848,
+      0.152815,
+      0.173176
+    ],
+    "median_maxrss_kib": 33200,
+    "object_bytes": 17180,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-psram.c",
+    "language": ".c",
+    "median_cpu": 0.154312,
+    "median_wall": 0.4518545758910477,
+    "cpu_samples": [
+      0.157349,
+      0.145309,
+      0.154312
+    ],
+    "median_maxrss_kib": 31276,
+    "object_bytes": 7180,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-matrix.c",
+    "language": ".c",
+    "median_cpu": 0.154081,
+    "median_wall": 0.2400790867395699,
+    "cpu_samples": [
+      0.149639,
+      0.154081,
+      0.154306
+    ],
+    "median_maxrss_kib": 33532,
+    "object_bytes": 8276,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/HashBuilder.cpp",
+    "language": ".cpp",
+    "median_cpu": 0.14695999999999998,
+    "median_wall": 0.4960156511515379,
+    "cpu_samples": [
+      0.13366,
+      0.151979,
+      0.14695999999999998
+    ],
+    "median_maxrss_kib": 31716,
+    "object_bytes": 30924,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/WMath.cpp",
+    "language": ".cpp",
+    "median_cpu": 0.13272099999999998,
+    "median_wall": 0.2848362107761204,
+    "cpu_samples": [
+      0.135451,
+      0.13272099999999998,
+      0.129745
+    ],
+    "median_maxrss_kib": 31404,
+    "object_bytes": 17200,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/StringUtils.cpp",
+    "language": ".cpp",
+    "median_cpu": 0.130797,
+    "median_wall": 0.3023341470398009,
+    "cpu_samples": [
+      0.146431,
+      0.130797,
+      0.129529
+    ],
+    "median_maxrss_kib": 31332,
+    "object_bytes": 30024,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/libb64/cdecode.c",
+    "language": ".c",
+    "median_cpu": 0.082127,
+    "median_wall": 0.17665956681594253,
+    "cpu_samples": [
+      0.082213,
+      0.082127,
+      0.081386
+    ],
+    "median_maxrss_kib": 25680,
+    "object_bytes": 17596,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-ldo.c",
+    "language": ".c",
+    "median_cpu": 0.07206499999999999,
+    "median_wall": 0.13899484788998961,
+    "cpu_samples": [
+      0.07558699999999999,
+      0.07206499999999999,
+      0.068658
+    ],
+    "median_maxrss_kib": 22788,
+    "object_bytes": 2228,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-i2c.c",
+    "language": ".c",
+    "median_cpu": 0.069255,
+    "median_wall": 0.08834501216188073,
+    "cpu_samples": [
+      0.07045599999999999,
+      0.06391,
+      0.069255
+    ],
+    "median_maxrss_kib": 22848,
+    "object_bytes": 2228,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/libb64/cencode.c",
+    "language": ".c",
+    "median_cpu": 0.061409,
+    "median_wall": 0.10889433929696679,
+    "cpu_samples": [
+      0.061409,
+      0.056860999999999995,
+      0.06369999999999999
+    ],
+    "median_maxrss_kib": 24264,
+    "object_bytes": 15696,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/idf_openthread_mpool_wrapper.c",
+    "language": ".c",
+    "median_cpu": 0.022577,
+    "median_wall": 0.02874930901452899,
+    "cpu_samples": [
+      0.023856,
+      0.020508,
+      0.022577
+    ],
+    "median_maxrss_kib": 18836,
+    "object_bytes": 1304,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-hosted.c",
+    "language": ".c",
+    "median_cpu": 0.022278,
+    "median_wall": 0.051596504636108875,
+    "cpu_samples": [
+      0.022934999999999997,
+      0.022102999999999998,
+      0.022278
+    ],
+    "median_maxrss_kib": 18792,
+    "object_bytes": 1280,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-log-wrapper.c",
+    "language": ".c",
+    "median_cpu": 0.022106999999999998,
+    "median_wall": 0.0380867850035429,
+    "cpu_samples": [
+      0.021426999999999998,
+      0.022106999999999998,
+      0.023385999999999997
+    ],
+    "median_maxrss_kib": 18756,
+    "object_bytes": 1288,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-touch.c",
+    "language": ".c",
+    "median_cpu": 0.021189,
+    "median_wall": 0.045950047206133604,
+    "cpu_samples": [
+      0.02387,
+      0.021026999999999997,
+      0.021189
+    ],
+    "median_maxrss_kib": 18652,
+    "object_bytes": 1276,
+    "gcc": {}
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-dac.c",
+    "language": ".c",
+    "median_cpu": 0.020941,
+    "median_wall": 0.07069647684693336,
+    "cpu_samples": [
+      0.020941,
+      0.021817999999999997,
+      0.020738
+    ],
+    "median_maxrss_kib": 18372,
+    "object_bytes": 1272,
+    "gcc": {}
+  }
+]

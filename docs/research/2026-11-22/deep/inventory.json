@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-22",
+  "timezone": "Asia/Tokyo",
+  "fqbn": "esp32:esp32:esp32s3",
+  "arduino_platform": "3.3.13",
+  "cli": "arduino-cli  Version: 1.5.1 Commit: 01f3d4f2b Date: 2026-06-05T10:22:17Z",
+  "compile_repeats": 3,
+  "header_repeats": 5,
+  "core_source_count": 60,
+  "instrumented_cli_jobs": 4,
+  "compile_replay_jobs": 2,
+  "source_integrity": "Original ESP32 core source and SDK flag hashes match the first survey inventory.",
+  "workloads": "Other host workloads were active. CPU time includes the measured child and its descendants; wall time includes scheduling delays.",
+  "script_sha256": {
+    "profile_map.py": "5ff5433e17ba1dd0c0fc0a7850c577a05c836fa80699d7013ea586f1faf51688",
+    "profile_options.py": "c3e6aa7ac3342e0bbcc71eab2136e674a00ff441581aa2b42642dac78ae5ae55",
+    "profile_configs.py": "92a7c26706985c770f2be52d9b3adba803e97b7e59253515b736ec5ecd0dd455",
+    "profile_compile.py": "9b3deba4d070c3279f8a37dce158600f86724a02420a3dda072da09c110fdeb3",
+    "profile_pipeline.py": "f93c86ac9070b97daf19b7652ef17f1f69ec22bc53e9f3ec597ec60041e768b6",
+    "profile_headers.py": "1ce988d4d792b47d0536c7b6d7ba173c4ce7e4cb18e0c03cf23fa72c2774efb4",
+    "trace_tool.py": "41f8663489af9c93ae80f7feba120553ea9ecc711d3eca4715b72c0a2a1b3f82"
+  }
+}

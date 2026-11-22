@@ -1,0 +1,117 @@
+{
+  "baseline": {
+    "defines": {},
+    "changed_count": 0,
+    "changed_files": []
+  },
+  "fcpu80": {
+    "defines": {
+      "F_CPU": "80000000L"
+    },
+    "changed_count": 1,
+    "changed_files": [
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/main.cpp"
+    ]
+  },
+  "loop_core0": {
+    "defines": {
+      "ARDUINO_RUNNING_CORE": "0"
+    },
+    "changed_count": 1,
+    "changed_files": [
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/main.cpp"
+    ]
+  },
+  "event_core0": {
+    "defines": {
+      "ARDUINO_EVENT_RUNNING_CORE": "0"
+    },
+    "changed_count": 0,
+    "changed_files": []
+  },
+  "debug4": {
+    "defines": {
+      "CORE_DEBUG_LEVEL": "4"
+    },
+    "changed_count": 29,
+    "changed_files": [
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/FirmwareMSC.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/Esp.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/HWCDC.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/HardwareSerial.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/USB.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/USBHost.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/Tone.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/USBCDC.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/WString.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/WMath.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/cbuf.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-cpu.c",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-bt.c",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-adc.c",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-i2c-ng.c",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-gpio.c",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-ledc.c",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-i2c-slave.c",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-misc.c",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-rmt.c",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-rgb-led.c",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-periman.c",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-sigmadelta.c",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-tinyusb.c",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-spi.c",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-timer.c",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-uart.c",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-touch-ng.c",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/main.cpp"
+    ]
+  },
+  "cdc1": {
+    "defines": {
+      "ARDUINO_USB_CDC_ON_BOOT": "1"
+    },
+    "changed_count": 16,
+    "changed_files": [
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/FunctionalInterrupt.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/Esp.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/HWCDC.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/HardwareSerial.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/MacAddress.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/StreamString.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/Print.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/USB.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/Stream.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/USBHost.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/Tone.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/USBCDC.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/WString.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/base64.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/chip-debug-report.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/main.cpp"
+    ]
+  },
+  "no_global_serial": {
+    "defines": {
+      "NO_GLOBAL_SERIAL": "1"
+    },
+    "changed_count": 16,
+    "changed_files": [
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/FunctionalInterrupt.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/Esp.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/HWCDC.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/HardwareSerial.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/MacAddress.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/StreamString.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/Print.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/USB.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/Stream.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/USBHost.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/Tone.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/USBCDC.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/WString.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/base64.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/chip-debug-report.cpp",
+      "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/main.cpp"
+    ]
+  }
+}

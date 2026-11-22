@@ -1,0 +1,1546 @@
+{
+  "elf_sections": {
+    ".rtc.text": 0,
+    ".rtc.force_fast": 0,
+    ".rtc.force_slow": 32,
+    ".iram0.vectors": 1028,
+    ".iram0.text": 57307,
+    ".dram0.data": 14656,
+    ".dram0.bss": 6824,
+    ".flash.text": 127964,
+    ".flash.appdesc": 256,
+    ".flash.rodata": 49192,
+    ".eh_frame": 2808,
+    ".iram0.text_end": 33,
+    ".iram0.data": 0,
+    ".iram0.bss": 0
+  },
+  "accounted": {
+    ".rtc.text": 0,
+    ".rtc.force_fast": 0,
+    ".rtc.force_slow": 32,
+    ".iram0.vectors": 427,
+    ".iram0.text": 56517,
+    ".dram0.data": 14603,
+    ".dram0.bss": 6778,
+    ".flash.text": 126532,
+    ".flash.appdesc": 256,
+    ".flash.rodata": 49181,
+    ".eh_frame": 2804,
+    ".iram0.text_end": 0,
+    ".iram0.data": 0,
+    ".iram0.bss": 0
+  },
+  "unattributed": {
+    ".rtc.text": 0,
+    ".rtc.force_fast": 0,
+    ".rtc.force_slow": 0,
+    ".iram0.vectors": 601,
+    ".iram0.text": 790,
+    ".dram0.data": 53,
+    ".dram0.bss": 46,
+    ".flash.text": 1432,
+    ".flash.appdesc": 0,
+    ".flash.rodata": 11,
+    ".eh_frame": 4,
+    ".iram0.text_end": 33,
+    ".iram0.data": 0,
+    ".iram0.bss": 0
+  },
+  "archives": {
+    "libesp_hw_support.a": {
+      ".rtc.force_slow": 32,
+      ".iram0.text": 6361,
+      ".dram0.data": 265,
+      ".dram0.bss": 96,
+      ".flash.text": 9345,
+      ".flash.rodata": 34
+    },
+    "libxtensa.a": {
+      ".iram0.vectors": 427,
+      ".iram0.text": 2065,
+      ".dram0.data": 1060,
+      ".flash.text": 99
+    },
+    "libbootloader_support.a": {
+      ".iram0.text": 918,
+      ".dram0.bss": 8,
+      ".flash.text": 2839
+    },
+    "libspi_flash.a": {
+      ".iram0.text": 11032,
+      ".dram0.data": 1372,
+      ".dram0.bss": 56,
+      ".flash.text": 1888
+    },
+    "libesp_system.a": {
+      ".iram0.text": 3283,
+      ".dram0.data": 497,
+      ".dram0.bss": 358,
+      ".flash.text": 9147,
+      ".flash.rodata": 68
+    },
+    "libheap.a": {
+      ".iram0.text": 6166,
+      ".dram0.data": 13,
+      ".dram0.bss": 8,
+      ".flash.text": 3045,
+      ".flash.rodata": 56
+    },
+    "libfreertos.a": {
+      ".iram0.text": 12140,
+      ".dram0.data": 4228,
+      ".dram0.bss": 776,
+      ".flash.text": 426
+    },
+    "libnewlib.a": {
+      ".iram0.text": 1446,
+      ".dram0.data": 172,
+      ".dram0.bss": 216,
+      ".flash.text": 1216,
+      ".flash.rodata": 16
+    },
+    "libesp_timer.a": {
+      ".iram0.text": 903,
+      ".dram0.data": 32,
+      ".dram0.bss": 36,
+      ".flash.text": 1463,
+      ".flash.rodata": 16
+    },
+    "libesp_psram.a": {
+      ".iram0.text": 57,
+      ".dram0.data": 11,
+      ".dram0.bss": 52,
+      ".flash.text": 74,
+      ".flash.rodata": 8
+    },
+    "libesp_driver_usb_serial_jtag.a": {
+      ".iram0.text": 101,
+      ".dram0.data": 56,
+      ".dram0.bss": 17,
+      ".flash.text": 1707,
+      ".flash.rodata": 76
+    },
+    "libesp_mm.a": {
+      ".iram0.text": 1300,
+      ".dram0.data": 20,
+      ".dram0.bss": 48,
+      ".flash.text": 2039
+    },
+    "libesp_ringbuf.a": {
+      ".iram0.text": 1070
+    },
+    "libesp_rom.a": {
+      ".iram0.text": 707,
+      ".dram0.data": 4,
+      ".flash.text": 62
+    },
+    "libhal.a": {
+      ".iram0.text": 7978,
+      ".dram0.data": 12,
+      ".dram0.bss": 4,
+      ".flash.text": 3222
+    },
+    "liblog.a": {
+      ".iram0.text": 326,
+      ".dram0.data": 8,
+      ".dram0.bss": 276,
+      ".flash.text": 867
+    },
+    "libesp_coex.a": {
+      ".iram0.text": 105,
+      ".dram0.data": 80,
+      ".flash.text": 298
+    },
+    "libcoexist.a": {
+      ".iram0.text": 50,
+      ".dram0.data": 302,
+      ".dram0.bss": 1,
+      ".flash.text": 1210
+    },
+    "libgcc.a": {
+      ".iram0.text": 104,
+      ".dram0.data": 4,
+      ".dram0.bss": 8,
+      ".flash.text": 3824,
+      ".flash.rodata": 70,
+      ".eh_frame": 496
+    },
+    "libxt_hal.a": {
+      ".iram0.text": 405
+    },
+    "core.a": {
+      ".dram0.data": 133,
+      ".dram0.bss": 1171,
+      ".flash.text": 10088,
+      ".flash.rodata": 8,
+      ".eh_frame": 120
+    },
+    "libesp_driver_gpio.a": {
+      ".dram0.data": 36,
+      ".flash.text": 1320
+    },
+    "libpthread.a": {
+      ".dram0.data": 16,
+      ".dram0.bss": 4,
+      ".flash.text": 907
+    },
+    "libesp_driver_uart.a": {
+      ".dram0.data": 304,
+      ".dram0.bss": 32,
+      ".flash.text": 5889,
+      ".flash.rodata": 254
+    },
+    "libvfs.a": {
+      ".dram0.data": 192,
+      ".dram0.bss": 44,
+      ".flash.text": 3256,
+      ".flash.rodata": 46
+    },
+    "libespcoredump.a": {
+      ".dram0.data": 112,
+      ".dram0.bss": 2712,
+      ".flash.text": 7418,
+      ".flash.rodata": 22
+    },
+    "libstdc++.a": {
+      ".dram0.data": 8,
+      ".dram0.bss": 49,
+      ".flash.text": 4383,
+      ".flash.rodata": 431,
+      ".eh_frame": 1160
+    },
+    "libc.a": {
+      ".dram0.data": 268,
+      ".dram0.bss": 728,
+      ".flash.text": 35810,
+      ".flash.rodata": 2136
+    },
+    "libbt.a": {
+      ".dram0.data": 4,
+      ".flash.text": 332
+    },
+    "libmbedcrypto.a": {
+      ".dram0.data": 24,
+      ".dram0.bss": 8,
+      ".flash.text": 1794
+    },
+    "<merged/shared>": {
+      ".dram0.data": 1374,
+      ".flash.rodata": 11603
+    },
+    "<linker string pool>": {
+      ".dram0.data": 3996,
+      ".flash.rodata": 34090
+    },
+    "libesp_app_format.a": {
+      ".dram0.bss": 10,
+      ".flash.text": 129,
+      ".flash.appdesc": 256,
+      ".flash.rodata": 8
+    },
+    "libapp_update.a": {
+      ".dram0.bss": 4,
+      ".flash.text": 1036
+    },
+    "libesp_partition.a": {
+      ".dram0.bss": 8,
+      ".flash.text": 1605
+    },
+    "libcxx.a": {
+      ".dram0.bss": 4,
+      ".flash.text": 17
+    },
+    "libnvs_flash.a": {
+      ".dram0.bss": 8,
+      ".flash.text": 7075,
+      ".flash.rodata": 42,
+      ".eh_frame": 988
+    },
+    "libesp_vfs_console.a": {
+      ".dram0.bss": 16,
+      ".flash.text": 466,
+      ".flash.rodata": 165
+    },
+    "libespressif__esp_diagnostics.a": {
+      ".dram0.bss": 16,
+      ".flash.text": 1921
+    },
+    "libesp_security.a": {
+      ".dram0.bss": 4,
+      ".flash.text": 160,
+      ".flash.rodata": 8
+    },
+    "libesp_common.a": {
+      ".flash.text": 46
+    },
+    "Minimal.ino.cpp.o": {
+      ".flash.text": 15,
+      ".eh_frame": 40
+    },
+    "libefuse.a": {
+      ".flash.text": 54,
+      ".flash.rodata": 24
+    },
+    "libesp_phy.a": {
+      ".flash.text": 5
+    },
+    "libnvs_sec_provider.a": {
+      ".flash.text": 5
+    },
+    "libsoc.a": {
+      ".flash.text": 30
+    }
+  },
+  "objects": {
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_hw_support.a(sleep_modes.c.obj)": {
+      ".rtc.force_slow": 32,
+      ".dram0.data": 112,
+      ".flash.text": 210
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libxtensa.a(xtensa_vectors.S.obj)": {
+      ".iram0.vectors": 427,
+      ".iram0.text": 1582,
+      ".dram0.data": 36
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libbootloader_support.a(bootloader_flash.c.obj)": {
+      ".iram0.text": 908,
+      ".dram0.bss": 4,
+      ".flash.text": 226
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libspi_flash.a(flash_mmap.c.obj)": {
+      ".iram0.text": 158,
+      ".dram0.bss": 28,
+      ".flash.text": 1034
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libspi_flash.a(esp_flash_api.c.obj)": {
+      ".iram0.text": 2760,
+      ".dram0.data": 238,
+      ".flash.text": 58
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libspi_flash.a(spi_flash_os_func_app.c.obj)": {
+      ".iram0.text": 386,
+      ".dram0.data": 60,
+      ".dram0.bss": 4,
+      ".flash.text": 72
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libspi_flash.a(cache_utils.c.obj)": {
+      ".iram0.text": 522,
+      ".dram0.data": 4,
+      ".dram0.bss": 6,
+      ".flash.text": 96
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libspi_flash.a(flash_ops.c.obj)": {
+      ".iram0.text": 76,
+      ".dram0.data": 16,
+      ".dram0.bss": 4,
+      ".flash.text": 221
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_system.a(esp_ipc.c.obj)": {
+      ".iram0.text": 263,
+      ".dram0.data": 368,
+      ".dram0.bss": 66,
+      ".flash.text": 623,
+      ".flash.rodata": 4
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_system.a(cpu_start.c.obj)": {
+      ".iram0.text": 534,
+      ".dram0.bss": 5,
+      ".flash.text": 815
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_system.a(panic_handler.c.obj)": {
+      ".iram0.text": 76,
+      ".dram0.bss": 8,
+      ".flash.text": 432
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_system.a(esp_ipc_isr.c.obj)": {
+      ".iram0.text": 19,
+      ".dram0.data": 4,
+      ".dram0.bss": 16,
+      ".flash.text": 35
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_system.a(debug_helpers.c.obj)": {
+      ".iram0.text": 558
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_system.a(highint_hdl.S.obj)": {
+      ".iram0.text": 159
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_system.a(apb_backup_dma.c.obj)": {
+      ".iram0.text": 36,
+      ".dram0.data": 8,
+      ".flash.text": 29
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_system.a(crosscore_int.c.obj)": {
+      ".iram0.text": 239,
+      ".dram0.data": 8,
+      ".dram0.bss": 8,
+      ".flash.text": 125
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_system.a(int_wdt.c.obj)": {
+      ".iram0.text": 125,
+      ".dram0.bss": 9,
+      ".flash.text": 246
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_system.a(startup.c.obj)": {
+      ".iram0.text": 56,
+      ".dram0.bss": 51,
+      ".flash.text": 299
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_system.a(esp_ipc_isr_handler.S.obj)": {
+      ".iram0.text": 131,
+      ".dram0.data": 16
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libheap.a(heap_caps.c.obj)": {
+      ".iram0.text": 330,
+      ".dram0.data": 4,
+      ".dram0.bss": 4,
+      ".flash.text": 209
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libheap.a(heap_caps_base.c.obj)": {
+      ".iram0.text": 836
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_hw_support.a(esp_clk.c.obj)": {
+      ".iram0.text": 87,
+      ".dram0.data": 9,
+      ".flash.text": 241
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_hw_support.a(hw_random.c.obj)": {
+      ".iram0.text": 74,
+      ".dram0.bss": 4
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_hw_support.a(intr_alloc.c.obj)": {
+      ".iram0.text": 549,
+      ".dram0.data": 8,
+      ".dram0.bss": 22,
+      ".flash.text": 1819
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_hw_support.a(rtc_module.c.obj)": {
+      ".iram0.text": 206,
+      ".dram0.data": 24,
+      ".dram0.bss": 4,
+      ".flash.text": 194
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_hw_support.a(brownout.c.obj)": {
+      ".iram0.text": 236,
+      ".dram0.data": 47,
+      ".dram0.bss": 4,
+      ".flash.text": 82
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_hw_support.a(rtc_clk.c.obj)": {
+      ".iram0.text": 2363,
+      ".dram0.bss": 12
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libfreertos.a(port.c.obj)": {
+      ".iram0.text": 1135,
+      ".dram0.data": 4204,
+      ".dram0.bss": 48
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libnewlib.a(locks.c.obj)": {
+      ".iram0.text": 790,
+      ".dram0.data": 8,
+      ".dram0.bss": 184,
+      ".flash.text": 118
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_timer.a(system_time.c.obj)": {
+      ".iram0.text": 31,
+      ".dram0.bss": 8,
+      ".flash.text": 74
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_timer.a(esp_timer_impl_systimer.c.obj)": {
+      ".iram0.text": 174,
+      ".dram0.bss": 20,
+      ".flash.text": 411
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_psram.a(esp_psram.c.obj)": {
+      ".iram0.text": 42,
+      ".dram0.data": 10,
+      ".dram0.bss": 52,
+      ".flash.text": 67,
+      ".flash.rodata": 8
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_driver_usb_serial_jtag.a(usb_serial_jtag_connection_monitor.c.obj)": {
+      ".iram0.text": 101,
+      ".dram0.bss": 5,
+      ".flash.text": 78,
+      ".flash.rodata": 8
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libxtensa.a(xtensa_intr.c.obj)": {
+      ".iram0.text": 26,
+      ".flash.text": 99
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_mm.a(esp_mmu_map.c.obj)": {
+      ".iram0.text": 362,
+      ".dram0.data": 4,
+      ".dram0.bss": 48,
+      ".flash.text": 2039
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_mm.a(heap_align_hw.c.obj)": {
+      ".iram0.text": 139
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_timer.a(esp_timer.c.obj)": {
+      ".iram0.text": 565,
+      ".dram0.data": 8,
+      ".dram0.bss": 8,
+      ".flash.text": 831,
+      ".flash.rodata": 8
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_timer.a(ets_timer_legacy.c.obj)": {
+      ".iram0.text": 124,
+      ".flash.text": 127
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_hw_support.a(cpu.c.obj)": {
+      ".iram0.text": 340,
+      ".dram0.data": 4,
+      ".flash.text": 176,
+      ".flash.rodata": 30
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_hw_support.a(esp_memory_utils.c.obj)": {
+      ".iram0.text": 182
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_hw_support.a(gdma.c.obj)": {
+      ".iram0.text": 151,
+      ".dram0.data": 16,
+      ".flash.text": 2545
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_hw_support.a(mspi_timing_config.c.obj)": {
+      ".iram0.text": 220
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_hw_support.a(mspi_timing_tuning.c.obj)": {
+      ".iram0.text": 207,
+      ".dram0.data": 5
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_hw_support.a(periph_ctrl.c.obj)": {
+      ".iram0.text": 74,
+      ".dram0.data": 8,
+      ".dram0.bss": 42,
+      ".flash.text": 996
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_hw_support.a(regi2c_ctrl.c.obj)": {
+      ".iram0.text": 191,
+      ".dram0.data": 8
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_hw_support.a(rtc_sleep.c.obj)": {
+      ".iram0.text": 408
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_hw_support.a(rtc_time.c.obj)": {
+      ".iram0.text": 1043,
+      ".flash.rodata": 4
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_mm.a(esp_cache_msync.c.obj)": {
+      ".iram0.text": 640,
+      ".dram0.data": 8
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_mm.a(esp_cache_utils.c.obj)": {
+      ".iram0.text": 159,
+      ".dram0.data": 8
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_psram.a(esp_psram_impl_ap_quad.c.obj)": {
+      ".iram0.text": 15,
+      ".dram0.data": 1
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_ringbuf.a(ringbuf.c.obj)": {
+      ".iram0.text": 1070
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_rom.a(esp_rom_cache_esp32s2_esp32s3.c.obj)": {
+      ".iram0.text": 304
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_rom.a(esp_rom_cache_writeback_esp32s3.S.obj)": {
+      ".iram0.text": 102
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_rom.a(esp_rom_spiflash.c.obj)": {
+      ".iram0.text": 247
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_rom.a(esp_rom_sys.c.obj)": {
+      ".iram0.text": 54,
+      ".dram0.data": 4
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_system.a(esp_err.c.obj)": {
+      ".iram0.text": 145
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_system.a(freertos_hooks.c.obj)": {
+      ".iram0.text": 41,
+      ".dram0.data": 8,
+      ".dram0.bss": 128,
+      ".flash.text": 251
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_system.a(panic.c.obj)": {
+      ".iram0.text": 30,
+      ".dram0.data": 20,
+      ".dram0.bss": 10,
+      ".flash.text": 1035
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_system.a(reset_reason.c.obj)": {
+      ".iram0.text": 65,
+      ".dram0.bss": 4,
+      ".flash.text": 212,
+      ".flash.rodata": 4
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_system.a(stack_check.c.obj)": {
+      ".iram0.text": 13,
+      ".dram0.data": 32,
+      ".dram0.bss": 4,
+      ".flash.text": 20,
+      ".flash.rodata": 4
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_system.a(system_internal.c.obj)": {
+      ".iram0.text": 641
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libfreertos.a(queue.c.obj)": {
+      ".iram0.text": 1958
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libfreertos.a(portasm.S.obj)": {
+      ".iram0.text": 582
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libfreertos.a(port_common.c.obj)": {
+      ".iram0.text": 76
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libfreertos.a(port_systick.c.obj)": {
+      ".iram0.text": 492,
+      ".dram0.bss": 20
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libfreertos.a(tasks.c.obj)": {
+      ".iram0.text": 7507,
+      ".dram0.data": 24,
+      ".dram0.bss": 708,
+      ".flash.text": 166
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libhal.a(cache_hal.c.obj)": {
+      ".iram0.text": 918,
+      ".dram0.bss": 4
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libhal.a(mmu_hal.c.obj)": {
+      ".iram0.text": 591
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libhal.a(spi_flash_encrypt_hal_iram.c.obj)": {
+      ".iram0.text": 235
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libhal.a(spi_flash_hal_gpspi.c.obj)": {
+      ".iram0.text": 1777
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libhal.a(spi_flash_hal_iram.c.obj)": {
+      ".iram0.text": 3056
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libhal.a(systimer_hal.c.obj)": {
+      ".iram0.text": 648
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libheap.a(multi_heap.c.obj)": {
+      ".iram0.text": 476,
+      ".flash.text": 282
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libheap.a(multi_heap_poisoning.c.obj)": {
+      ".iram0.text": 475,
+      ".flash.text": 79
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libheap.a(tlsf.c.obj)": {
+      ".iram0.text": 4049,
+      ".flash.text": 906
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/liblog.a(log.c.obj)": {
+      ".iram0.text": 78
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/liblog.a(log_lock.c.obj)": {
+      ".iram0.text": 113,
+      ".dram0.bss": 4
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/liblog.a(log_timestamp.c.obj)": {
+      ".iram0.text": 100,
+      ".dram0.bss": 4
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/liblog.a(tag_log_level.c.obj)": {
+      ".iram0.text": 21,
+      ".flash.text": 157
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/liblog.a(util.c.obj)": {
+      ".iram0.text": 14,
+      ".dram0.bss": 4
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libnewlib.a(abort.c.obj)": {
+      ".iram0.text": 164
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libnewlib.a(assert.c.obj)": {
+      ".iram0.text": 294
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libnewlib.a(heap.c.obj)": {
+      ".iram0.text": 139
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libnewlib.a(stdatomic.c.obj)": {
+      ".iram0.text": 59,
+      ".dram0.data": 8
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libspi_flash.a(flash_brownout_hook.c.obj)": {
+      ".iram0.text": 62,
+      ".dram0.bss": 2
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libspi_flash.a(memspi_host_driver.c.obj)": {
+      ".iram0.text": 721,
+      ".dram0.data": 88
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libspi_flash.a(spi_flash_chip_gd.c.obj)": {
+      ".iram0.text": 252
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libspi_flash.a(spi_flash_chip_generic.c.obj)": {
+      ".iram0.text": 2766,
+      ".dram0.data": 168
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libspi_flash.a(spi_flash_chip_issi.c.obj)": {
+      ".iram0.text": 99,
+      ".dram0.data": 129
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libspi_flash.a(spi_flash_chip_mxic_opi.c.obj)": {
+      ".iram0.text": 1520,
+      ".dram0.data": 98
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libspi_flash.a(spi_flash_chip_winbond.c.obj)": {
+      ".iram0.text": 888,
+      ".dram0.data": 84
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libspi_flash.a(spi_flash_oct_flash_init.c.obj)": {
+      ".iram0.text": 576,
+      ".dram0.data": 67,
+      ".dram0.bss": 8
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libspi_flash.a(spi_flash_os_func_noos.c.obj)": {
+      ".iram0.text": 66,
+      ".dram0.data": 40
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libxtensa.a(xtensa_context.S.obj)": {
+      ".iram0.text": 406
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libbootloader_support.a(flash_encrypt.c.obj)": {
+      ".iram0.text": 10
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_system.a(debug_helpers_asm.S.obj)": {
+      ".iram0.text": 29
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_system.a(clk.c.obj)": {
+      ".iram0.text": 27,
+      ".flash.text": 908
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libhal.a(efuse_hal.c.obj)": {
+      ".iram0.text": 248
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_coex.a(esp_coex_adapter.c.obj)": {
+      ".iram0.text": 105,
+      ".dram0.data": 80,
+      ".flash.text": 199
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_system.a(panic_handler_asm.S.obj)": {
+      ".iram0.text": 83
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libcoexist.a(coexist_core.o)": {
+      ".iram0.text": 27,
+      ".dram0.data": 145,
+      ".flash.text": 381
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libcoexist.a(coexist_dbg.o)": {
+      ".iram0.text": 23,
+      ".dram0.data": 4
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_timer.a(esp_timer_impl_common.c.obj)": {
+      ".iram0.text": 9,
+      ".dram0.data": 24
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_hw_support.a(systimer.c.obj)": {
+      ".iram0.text": 30
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_system.a(esp_system_chip.c.obj)": {
+      ".iram0.text": 8,
+      ".flash.text": 12
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_system.a(ubsan.c.obj)": {
+      ".iram0.text": 5
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libfreertos.a(heap_idf.c.obj)": {
+      ".iram0.text": 114
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libfreertos.a(list.c.obj)": {
+      ".iram0.text": 276
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/esp32s3/no-rtti/libgcc.a(lib2funcs.o)": {
+      ".iram0.text": 104
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libhal.a(gdma_hal_ahb_v1.c.obj)": {
+      ".iram0.text": 469,
+      ".dram0.data": 12,
+      ".flash.text": 999
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libhal.a(gdma_hal_top.c.obj)": {
+      ".iram0.text": 36,
+      ".flash.text": 127
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libspi_flash.a(spi_flash_chip_boya.c.obj)": {
+      ".iram0.text": 33
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libspi_flash.a(spi_flash_chip_mxic.c.obj)": {
+      ".iram0.text": 99,
+      ".dram0.data": 129
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libspi_flash.a(spi_flash_chip_th.c.obj)": {
+      ".iram0.text": 41,
+      ".dram0.data": 127
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libspi_flash.a(spi_flash_hpm_enable.c.obj)": {
+      ".iram0.text": 7
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libxt_hal.a(windowspill_asm.o)": {
+      ".iram0.text": 311
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libxt_hal.a(state_asm--restore_extra_nw.o)": {
+      ".iram0.text": 47
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libxt_hal.a(state_asm--save_extra_nw.o)": {
+      ".iram0.text": 47
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libxtensa.a(xtensa_intr_asm.S.obj)": {
+      ".iram0.text": 51,
+      ".dram0.data": 1024
+    },
+    "/tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(esp32-hal-bt.c.o)": {
+      ".dram0.data": 1,
+      ".dram0.bss": 3,
+      ".flash.text": 166
+    },
+    "/tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(esp32-hal-uart.c.o)": {
+      ".dram0.data": 132,
+      ".dram0.bss": 69,
+      ".flash.text": 4649
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_driver_gpio.a(gpio.c.obj)": {
+      ".dram0.data": 36,
+      ".flash.text": 1286
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libspi_flash.a(spi_flash_chip_drivers.c.obj)": {
+      ".dram0.data": 40,
+      ".flash.text": 5
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_system.a(task_wdt.c.obj)": {
+      ".dram0.data": 33,
+      ".dram0.bss": 5,
+      ".flash.text": 1941
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/liblog.a(log_write.c.obj)": {
+      ".dram0.data": 4
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/liblog.a(log_level.c.obj)": {
+      ".dram0.data": 4,
+      ".flash.text": 33
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libheap.a(heap_caps_init.c.obj)": {
+      ".dram0.data": 9,
+      ".dram0.bss": 4,
+      ".flash.text": 1023,
+      ".flash.rodata": 8
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_hw_support.a(esp_gpio_reserve.c.obj)": {
+      ".dram0.data": 8,
+      ".flash.text": 32
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_hw_support.a(rtc_init.c.obj)": {
+      ".dram0.data": 16,
+      ".flash.text": 2075
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libnewlib.a(newlib_init.c.obj)": {
+      ".dram0.data": 156,
+      ".flash.text": 236
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libpthread.a(pthread.c.obj)": {
+      ".dram0.data": 8,
+      ".flash.text": 417
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libpthread.a(pthread_local_storage.c.obj)": {
+      ".dram0.data": 8,
+      ".dram0.bss": 4,
+      ".flash.text": 475
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_driver_uart.a(uart.c.obj)": {
+      ".dram0.data": 176,
+      ".dram0.bss": 12,
+      ".flash.text": 2511,
+      ".flash.rodata": 94
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_driver_uart.a(uart_vfs.c.obj)": {
+      ".dram0.data": 128,
+      ".dram0.bss": 20,
+      ".flash.text": 3378,
+      ".flash.rodata": 160
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_driver_usb_serial_jtag.a(usb_serial_jtag_vfs.c.obj)": {
+      ".dram0.data": 56,
+      ".dram0.bss": 8,
+      ".flash.text": 1522,
+      ".flash.rodata": 68
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libvfs.a(vfs.c.obj)": {
+      ".dram0.data": 192,
+      ".dram0.bss": 40,
+      ".flash.text": 2640
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libespcoredump.a(core_dump_port.c.obj)": {
+      ".dram0.data": 112,
+      ".dram0.bss": 744,
+      ".flash.text": 1731
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libcoexist.a(coexist_api.o)": {
+      ".dram0.data": 4,
+      ".flash.text": 125
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libcoexist.a(coexist_scheme.o)": {
+      ".dram0.data": 103,
+      ".flash.text": 420
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libstdc++.a(eh_unex_handler.o)": {
+      ".dram0.data": 4
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libstdc++.a(eh_term_handler.o)": {
+      ".dram0.data": 4
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/esp32s3/no-rtti/libgcc.a(unwind-dw2-fde.o)": {
+      ".dram0.data": 4,
+      ".dram0.bss": 8,
+      ".flash.text": 1624,
+      ".flash.rodata": 60,
+      ".eh_frame": 240
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-environ.o)": {
+      ".dram0.data": 4,
+      ".dram0.bss": 4
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-findfp.o)": {
+      ".dram0.data": 12,
+      ".dram0.bss": 316,
+      ".flash.text": 511
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-locale.o)": {
+      ".dram0.data": 4,
+      ".flash.rodata": 358
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-impure.o)": {
+      ".dram0.data": 244
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-__call_atexit.o)": {
+      ".dram0.data": 4,
+      ".dram0.bss": 4
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libspi_flash.a(esp_flash_spi_init.c.obj)": {
+      ".dram0.data": 84,
+      ".dram0.bss": 4,
+      ".flash.text": 402
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libbt.a(bt.c.obj)": {
+      ".dram0.data": 4,
+      ".flash.text": 332
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libmbedcrypto.a(sha.c.obj)": {
+      ".dram0.data": 24,
+      ".flash.text": 816
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libcoexist.a(coexist_param.o)": {
+      ".dram0.data": 46,
+      ".dram0.bss": 1,
+      ".flash.text": 284
+    },
+    "<merged/shared>": {
+      ".dram0.data": 1374,
+      ".flash.rodata": 11603
+    },
+    "<linker string pool>": {
+      ".dram0.data": 3996,
+      ".flash.rodata": 34090
+    },
+    "/tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(esp32-hal-misc.c.o)": {
+      ".dram0.bss": 8,
+      ".flash.text": 639
+    },
+    "/tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(main.cpp.o)": {
+      ".dram0.bss": 5,
+      ".flash.text": 158,
+      ".eh_frame": 48
+    },
+    "/tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(esp32-hal-cpu.c.o)": {
+      ".dram0.bss": 9,
+      ".flash.text": 316
+    },
+    "/tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(esp32-hal-periman.c.o)": {
+      ".dram0.bss": 1060,
+      ".flash.text": 1423
+    },
+    "/tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(Esp.cpp.o)": {
+      ".dram0.bss": 1,
+      ".flash.text": 149,
+      ".flash.rodata": 4
+    },
+    "/tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(WString.cpp.o)": {
+      ".dram0.bss": 16,
+      ".flash.text": 626,
+      ".flash.rodata": 4
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_app_format.a(esp_app_desc.c.obj)": {
+      ".dram0.bss": 10,
+      ".flash.text": 129,
+      ".flash.appdesc": 256,
+      ".flash.rodata": 8
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libapp_update.a(esp_ota_ops.c.obj)": {
+      ".dram0.bss": 4,
+      ".flash.text": 1036
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_partition.a(partition.c.obj)": {
+      ".dram0.bss": 8,
+      ".flash.text": 878
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libbootloader_support.a(esp_image_format.c.obj)": {
+      ".dram0.bss": 4,
+      ".flash.text": 1666
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_system.a(esp_system.c.obj)": {
+      ".dram0.bss": 20,
+      ".flash.text": 98
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_system.a(task_wdt_impl_timergroup.c.obj)": {
+      ".dram0.bss": 12,
+      ".flash.text": 369
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_system.a(cache_err_int.c.obj)": {
+      ".dram0.bss": 12,
+      ".flash.text": 581
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/liblog.a(log_linked_list.c.obj)": {
+      ".dram0.bss": 4,
+      ".flash.text": 167
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/liblog.a(log_binary_heap.c.obj)": {
+      ".dram0.bss": 260,
+      ".flash.text": 510
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_hw_support.a(esp_clk_tree_common.c.obj)": {
+      ".dram0.bss": 8,
+      ".flash.text": 313
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libnewlib.a(time.c.obj)": {
+      ".dram0.bss": 20,
+      ".flash.text": 488
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libnewlib.a(esp_time_impl.c.obj)": {
+      ".dram0.bss": 12,
+      ".flash.text": 233
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libcxx.a(cxx_guards.cpp.obj)": {
+      ".dram0.bss": 4,
+      ".flash.text": 5
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libnvs_flash.a(nvs_partition_manager.cpp.obj)": {
+      ".dram0.bss": 4,
+      ".flash.text": 455,
+      ".eh_frame": 72
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libnvs_flash.a(nvs_platform.cpp.obj)": {
+      ".dram0.bss": 4,
+      ".flash.text": 39,
+      ".flash.rodata": 4,
+      ".eh_frame": 56
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_driver_usb_serial_jtag.a(usb_serial_jtag.c.obj)": {
+      ".dram0.bss": 4,
+      ".flash.text": 107
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_vfs_console.a(vfs_console.c.obj)": {
+      ".dram0.bss": 16,
+      ".flash.text": 466,
+      ".flash.rodata": 165
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libvfs.a(nullfs.c.obj)": {
+      ".dram0.bss": 4,
+      ".flash.text": 616,
+      ".flash.rodata": 46
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libespcoredump.a(core_dump_common.c.obj)": {
+      ".dram0.bss": 1900,
+      ".flash.text": 440,
+      ".flash.rodata": 14
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libespcoredump.a(core_dump_flash.c.obj)": {
+      ".dram0.bss": 16,
+      ".flash.text": 1390
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libespcoredump.a(core_dump_elf.c.obj)": {
+      ".dram0.bss": 32,
+      ".flash.text": 3392
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libespcoredump.a(core_dump_stack_switch.S.obj)": {
+      ".dram0.bss": 20,
+      ".flash.text": 275
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libespressif__esp_diagnostics.a(esp_diagnostics_log_hook.c.obj)": {
+      ".dram0.bss": 16,
+      ".flash.text": 1851
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_security.a(esp_crypto_lock.c.obj)": {
+      ".dram0.bss": 4,
+      ".flash.text": 32
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libmbedcrypto.a(esp_crypto_shared_gdma.c.obj)": {
+      ".dram0.bss": 8,
+      ".flash.text": 392
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libstdc++.a(new_handler.o)": {
+      ".dram0.bss": 4,
+      ".flash.text": 20
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libstdc++.a(eh_alloc.o)": {
+      ".dram0.bss": 16,
+      ".flash.text": 817,
+      ".flash.rodata": 86,
+      ".eh_frame": 168
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libstdc++.a(eh_globals.o)": {
+      ".dram0.bss": 13,
+      ".flash.text": 166,
+      ".flash.rodata": 12,
+      ".eh_frame": 84
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libstdc++.a(cow-string-inst.o)": {
+      ".dram0.bss": 16,
+      ".flash.text": 325,
+      ".eh_frame": 84
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-__atexit.o)": {
+      ".dram0.bss": 140,
+      ".flash.text": 177
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-on_exit_args.o)": {
+      ".dram0.bss": 264,
+      ".flash.rodata": 4
+    },
+    "/tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(chip-debug-report.cpp.o)": {
+      ".flash.text": 1955,
+      ".eh_frame": 72
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_driver_gpio.a(rtc_io.c.obj)": {
+      ".flash.text": 34
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_partition.a(partition_target.c.obj)": {
+      ".flash.text": 727
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libbootloader_support.a(bootloader_common_loader.c.obj)": {
+      ".flash.text": 735
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libbootloader_support.a(bootloader_sha.c.obj)": {
+      ".flash.text": 177
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_system.a(startup_funcs.c.obj)": {
+      ".flash.text": 211,
+      ".flash.rodata": 56
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_system.a(esp_ipc_isr_port.c.obj)": {
+      ".flash.text": 43
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_system.a(panic_arch.c.obj)": {
+      ".flash.text": 862
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_common.a(esp_err_to_name.c.obj)": {
+      ".flash.text": 46
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_rom.a(esp_rom_efuse.c.obj)": {
+      ".flash.text": 62
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libhal.a(spi_flash_hal.c.obj)": {
+      ".flash.text": 508
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libhal.a(clk_tree_hal.c.obj)": {
+      ".flash.text": 405
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libhal.a(uart_hal_iram.c.obj)": {
+      ".flash.text": 101
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libheap.a(memory_layout_utils.c.obj)": {
+      ".flash.text": 546
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_hw_support.a(sleep_gpio.c.obj)": {
+      ".flash.text": 121
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_hw_support.a(sar_periph_ctrl.c.obj)": {
+      ".flash.text": 52
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_hw_support.a(esp_cpu_intr.c.obj)": {
+      ".flash.text": 73
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libnewlib.a(init.c.obj)": {
+      ".flash.text": 32,
+      ".flash.rodata": 16
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libnewlib.a(syscalls.c.obj)": {
+      ".flash.text": 29
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libnewlib.a(reent_init.c.obj)": {
+      ".flash.text": 45
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libnvs_flash.a(nvs_api.cpp.obj)": {
+      ".flash.text": 107,
+      ".flash.rodata": 10,
+      ".eh_frame": 84
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libnvs_flash.a(nvs_page.cpp.obj)": {
+      ".flash.text": 3138,
+      ".eh_frame": 336
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libnvs_flash.a(nvs_partition.cpp.obj)": {
+      ".flash.text": 209,
+      ".eh_frame": 144
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libnvs_flash.a(nvs_types.cpp.obj)": {
+      ".flash.text": 268,
+      ".eh_frame": 72
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libnvs_flash.a(nvs_pagemanager.cpp.obj)": {
+      ".flash.text": 893,
+      ".flash.rodata": 28,
+      ".eh_frame": 56
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libespcoredump.a(core_dump_crc.c.obj)": {
+      ".flash.text": 175
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libbootloader_support.a(bootloader_flash_config_esp32s3.c.obj)": {
+      ".flash.text": 22
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libhal.a(brownout_hal.c.obj)": {
+      ".flash.text": 301
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_security.a(esp_crypto_periph_clk.c.obj)": {
+      ".flash.text": 116
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_hw_support.a(cpu_region_protect.c.obj)": {
+      ".flash.text": 50
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libmbedcrypto.a(esp_sha256.c.obj)": {
+      ".flash.text": 542
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libmbedcrypto.a(platform_util.c.obj)": {
+      ".flash.text": 28
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libhal.a(sha_hal.c.obj)": {
+      ".flash.text": 267
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libstdc++.a(eh_aux_runtime.o)": {
+      ".flash.text": 34,
+      ".eh_frame": 24
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libstdc++.a(eh_personality.o)": {
+      ".flash.text": 1362,
+      ".flash.rodata": 36,
+      ".eh_frame": 224
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libstdc++.a(eh_terminate.o)": {
+      ".flash.text": 90,
+      ".flash.rodata": 20,
+      ".eh_frame": 84
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libstdc++.a(eh_throw.o)": {
+      ".flash.text": 160,
+      ".eh_frame": 48
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libstdc++.a(si_class_type_info.o)": {
+      ".flash.text": 286,
+      ".eh_frame": 72
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libstdc++.a(bad_array_new.o)": {
+      ".flash.text": 50
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libstdc++.a(class_type_info.o)": {
+      ".flash.text": 263,
+      ".flash.rodata": 38,
+      ".eh_frame": 48
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libstdc++.a(functexcept.o)": {
+      ".flash.text": 180,
+      ".flash.rodata": 137,
+      ".eh_frame": 140
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libstdc++.a(bad_alloc.o)": {
+      ".flash.text": 50,
+      ".flash.rodata": 5
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libstdc++.a(stdexcept.o)": {
+      ".flash.text": 136,
+      ".flash.rodata": 60
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/esp32s3/no-rtti/libgcc.a(unwind-dw2-xtensa.o)": {
+      ".flash.text": 2200,
+      ".flash.rodata": 10,
+      ".eh_frame": 256
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-fclose.o)": {
+      ".flash.text": 206
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-fflush.o)": {
+      ".flash.text": 397
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-fvwrite.o)": {
+      ".flash.text": 691
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-puts.o)": {
+      ".flash.text": 131
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-reent.o)": {
+      ".flash.text": 200
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-mprec.o)": {
+      ".flash.text": 1930,
+      ".flash.rodata": 144
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-svfprintf.o)": {
+      ".flash.text": 12384,
+      ".flash.rodata": 520
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-vfprintf.o)": {
+      ".flash.text": 12652,
+      ".flash.rodata": 520
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-refill.o)": {
+      ".flash.text": 257
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-localeconv.o)": {
+      ".flash.text": 19
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libm_a-s_frexp.o)": {
+      ".flash.text": 99
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-dtoa.o)": {
+      ".flash.text": 3499
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_hw_support.a(esp_clk_tree.c.obj)": {
+      ".flash.text": 326
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libfreertos.a(app_startup.c.obj)": {
+      ".flash.text": 260
+    },
+    "/tmp/tinyesp32-survey-o_sr4ske/build/sketch/Minimal.ino.cpp.o": {
+      ".flash.text": 15,
+      ".eh_frame": 40
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libefuse.a(esp_efuse_startup.c.obj)": {
+      ".flash.text": 37,
+      ".flash.rodata": 24
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libefuse.a(esp_efuse_api.c.obj)": {
+      ".flash.text": 10
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_hw_support.a(chip_info.c.obj)": {
+      ".flash.text": 40
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libnewlib.a(reent_syscalls.c.obj)": {
+      ".flash.text": 25
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_timer.a(esp_timer_init.c.obj)": {
+      ".flash.text": 20,
+      ".flash.rodata": 8
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libnvs_flash.a(nvs_storage.cpp.obj)": {
+      ".flash.text": 1505,
+      ".eh_frame": 96
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libnvs_flash.a(nvs_item_hash_list.cpp.obj)": {
+      ".flash.text": 403,
+      ".eh_frame": 48
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libnvs_flash.a(nvs_partition_lookup.cpp.obj)": {
+      ".flash.text": 58,
+      ".eh_frame": 24
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libespcoredump.a(core_dump_init.c.obj)": {
+      ".flash.text": 15,
+      ".flash.rodata": 8
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libespressif__esp_diagnostics.a(esp_diagnostics_utils.c.obj)": {
+      ".flash.text": 70
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libbootloader_support.a(bootloader_mem.c.obj)": {
+      ".flash.text": 8
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libmbedcrypto.a(esp_sha_gdma_impl.c.obj)": {
+      ".flash.text": 16
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_coex.a(lib_printf.c.obj)": {
+      ".flash.text": 99
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libstdc++.a(del_ops.o)": {
+      ".flash.text": 10
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libstdc++.a(del_opv.o)": {
+      ".flash.text": 10
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libstdc++.a(new_opvnt.o)": {
+      ".flash.text": 27,
+      ".flash.rodata": 20,
+      ".eh_frame": 28
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libstdc++.a(del_op.o)": {
+      ".flash.text": 14
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libstdc++.a(eh_call.o)": {
+      ".flash.text": 46
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libstdc++.a(eh_catch.o)": {
+      ".flash.text": 175,
+      ".eh_frame": 24
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libstdc++.a(new_opv.o)": {
+      ".flash.text": 12,
+      ".eh_frame": 24
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libstdc++.a(new_op.o)": {
+      ".flash.text": 55,
+      ".eh_frame": 24
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libstdc++.a(cow-stdexcept.o)": {
+      ".flash.text": 78,
+      ".flash.rodata": 17,
+      ".eh_frame": 84
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-getenv.o)": {
+      ".flash.text": 20
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-getenv_r.o)": {
+      ".flash.text": 116
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-cxa_atexit.o)": {
+      ".flash.text": 21
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-fopen.o)": {
+      ".flash.text": 179
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-fprintf.o)": {
+      ".flash.text": 48
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-fseek.o)": {
+      ".flash.text": 21
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-printf.o)": {
+      ".flash.text": 46
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-stdio.o)": {
+      ".flash.text": 181
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-vprintf.o)": {
+      ".flash.text": 32
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-vsnprintf.o)": {
+      ".flash.text": 126
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-wsetup.o)": {
+      ".flash.text": 160
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-fseeko.o)": {
+      ".flash.text": 690
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-errno.o)": {
+      ".flash.text": 13
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-sysclose.o)": {
+      ".flash.text": 21
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-sysfcntl.o)": {
+      ".flash.text": 25
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-sysgettod.o)": {
+      ".flash.text": 20
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-sysopen.o)": {
+      ".flash.text": 76
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-sysread.o)": {
+      ".flash.text": 25
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-syswrite.o)": {
+      ".flash.text": 25
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-envlock.o)": {
+      ".flash.text": 28
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-vfiprintf.o)": {
+      ".flash.text": 30
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-makebuf.o)": {
+      ".flash.text": 238
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-svfiprintf.o)": {
+      ".flash.text": 265,
+      ".flash.rodata": 333
+    },
+    "/tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(esp32-hal-psram.c.o)": {
+      ".flash.text": 7
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libefuse.a(esp_efuse_utility.c.obj)": {
+      ".flash.text": 7
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libbootloader_support.a(bootloader_utility.c.obj)": {
+      ".flash.text": 5
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_security.a(init.c.obj)": {
+      ".flash.text": 12,
+      ".flash.rodata": 8
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libnewlib.a(pthread.c.obj)": {
+      ".flash.text": 5
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libnewlib.a(getentropy.c.obj)": {
+      ".flash.text": 5
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libpthread.a(pthread_cond_var.c.obj)": {
+      ".flash.text": 5
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libpthread.a(pthread_rwlock.c.obj)": {
+      ".flash.text": 5
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libpthread.a(pthread_semaphore.c.obj)": {
+      ".flash.text": 5
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libcxx.a(cxx_init.cpp.obj)": {
+      ".flash.text": 12
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/qio_qspi/libesp_psram.a(esp_psram_mspi.c.obj)": {
+      ".flash.text": 7
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_phy.a(phy_override.c.obj)": {
+      ".flash.text": 5
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libnvs_sec_provider.a(nvs_sec_provider.c.obj)": {
+      ".flash.text": 5
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libhal.a(uart_hal.c.obj)": {
+      ".flash.text": 268
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libhal.a(mpu_hal.c.obj)": {
+      ".flash.text": 51
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libsoc.a(dport_access_common.c.obj)": {
+      ".flash.text": 30
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libstdc++.a(tinfo.o)": {
+      ".flash.text": 12
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libstdc++.a(eh_exception.o)": {
+      ".flash.text": 5
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-fwalk.o)": {
+      ".flash.text": 55
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-mbtowc_r.o)": {
+      ".flash.text": 32
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-wctomb_r.o)": {
+      ".flash.text": 35
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-flags.o)": {
+      ".flash.text": 129
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libhal.a(gpio_hal.c.obj)": {
+      ".flash.text": 195
+    },
+    "/home/mt/.arduino15/internal/esp32_esp-x32_2610_0f94eac9843fbf9c/bin/../lib/gcc/xtensa-esp-elf/14.4.0/../../../../xtensa-esp-elf/lib/esp32s3/no-rtti/libc.a(libc_a-ctype_.o)": {
+      ".flash.rodata": 257
+    },
+    "/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libheap.a(memory_layout.c.obj)": {
+      ".flash.rodata": 48
+    }
+  }
+}

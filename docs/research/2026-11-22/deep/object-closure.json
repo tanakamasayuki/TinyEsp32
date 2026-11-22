@@ -1,0 +1,482 @@
+[
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/FirmwareMSC.cpp",
+    "code_literal_bytes": 2332,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.724725
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/FunctionalInterrupt.cpp",
+    "code_literal_bytes": 312,
+    "has_functional": false,
+    "has_arduino_h": true,
+    "has_serial_h": true,
+    "cpu": 1.374622
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/Esp.cpp",
+    "code_literal_bytes": 2035,
+    "has_functional": false,
+    "has_arduino_h": true,
+    "has_serial_h": true,
+    "cpu": 2.3809769999999997
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/ColorFormat.c",
+    "code_literal_bytes": 2531,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.203119
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/HEXBuilder.cpp",
+    "code_literal_bytes": 493,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.188007
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/HWCDC.cpp",
+    "code_literal_bytes": 4630,
+    "has_functional": false,
+    "has_arduino_h": true,
+    "has_serial_h": true,
+    "cpu": 1.802947
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/IPAddress.cpp",
+    "code_literal_bytes": 2318,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.5218879999999999
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/HardwareSerial.cpp",
+    "code_literal_bytes": 2960,
+    "has_functional": false,
+    "has_arduino_h": true,
+    "has_serial_h": true,
+    "cpu": 1.656869
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/MacAddress.cpp",
+    "code_literal_bytes": 1264,
+    "has_functional": false,
+    "has_arduino_h": true,
+    "has_serial_h": true,
+    "cpu": 1.500411
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/HashBuilder.cpp",
+    "code_literal_bytes": 165,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.14695999999999998
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/StreamString.cpp",
+    "code_literal_bytes": 1138,
+    "has_functional": false,
+    "has_arduino_h": true,
+    "has_serial_h": true,
+    "cpu": 1.421703
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/MD5Builder.cpp",
+    "code_literal_bytes": 363,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.169838
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/Print.cpp",
+    "code_literal_bytes": 2140,
+    "has_functional": false,
+    "has_arduino_h": true,
+    "has_serial_h": true,
+    "cpu": 1.565745
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/USB.cpp",
+    "code_literal_bytes": 1698,
+    "has_functional": false,
+    "has_arduino_h": true,
+    "has_serial_h": true,
+    "cpu": 1.595503
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/Stream.cpp",
+    "code_literal_bytes": 1375,
+    "has_functional": false,
+    "has_arduino_h": true,
+    "has_serial_h": true,
+    "cpu": 1.52524
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/StringUtils.cpp",
+    "code_literal_bytes": 350,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.130797
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/USBMSC.cpp",
+    "code_literal_bytes": 1246,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.713833
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/USBHost.cpp",
+    "code_literal_bytes": 431,
+    "has_functional": false,
+    "has_arduino_h": true,
+    "has_serial_h": true,
+    "cpu": 1.5184229999999999
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/Tone.cpp",
+    "code_literal_bytes": 512,
+    "has_functional": false,
+    "has_arduino_h": true,
+    "has_serial_h": true,
+    "cpu": 1.402637
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/USBCDC.cpp",
+    "code_literal_bytes": 3061,
+    "has_functional": false,
+    "has_arduino_h": true,
+    "has_serial_h": true,
+    "cpu": 1.6769599999999998
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/WString.cpp",
+    "code_literal_bytes": 6801,
+    "has_functional": false,
+    "has_arduino_h": true,
+    "has_serial_h": true,
+    "cpu": 2.018075
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/WMath.cpp",
+    "code_literal_bytes": 191,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.13272099999999998
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/base64.cpp",
+    "code_literal_bytes": 476,
+    "has_functional": false,
+    "has_arduino_h": true,
+    "has_serial_h": true,
+    "cpu": 1.396638
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/cbuf.cpp",
+    "code_literal_bytes": 1189,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.27771
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-cpu.c",
+    "code_literal_bytes": 901,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.252362
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/chip-debug-report.cpp",
+    "code_literal_bytes": 2790,
+    "has_functional": false,
+    "has_arduino_h": true,
+    "has_serial_h": true,
+    "cpu": 1.4160879999999998
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-bt.c",
+    "code_literal_bytes": 642,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.20497500000000002
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-adc.c",
+    "code_literal_bytes": 2491,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.375613
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-hosted.c",
+    "code_literal_bytes": 0,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.022278
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-i2c-ng.c",
+    "code_literal_bytes": 1932,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.28052299999999997
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-gpio.c",
+    "code_literal_bytes": 985,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.261737
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-dac.c",
+    "code_literal_bytes": 0,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.020941
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-i2c.c",
+    "code_literal_bytes": 0,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.069255
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-ledc.c",
+    "code_literal_bytes": 2457,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.388152
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-i2c-slave.c",
+    "code_literal_bytes": 4318,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.49584799999999996
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-matrix.c",
+    "code_literal_bytes": 109,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.154081
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-misc.c",
+    "code_literal_bytes": 1482,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.339676
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-ldo.c",
+    "code_literal_bytes": 0,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.07206499999999999
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-log-wrapper.c",
+    "code_literal_bytes": 0,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.022106999999999998
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-rmt.c",
+    "code_literal_bytes": 2367,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.36457999999999996
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-psram.c",
+    "code_literal_bytes": 35,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.154312
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-rgb-led.c",
+    "code_literal_bytes": 258,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.172389
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-periman.c",
+    "code_literal_bytes": 1617,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.187699
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-sigmadelta.c",
+    "code_literal_bytes": 305,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.157848
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-tinyusb.c",
+    "code_literal_bytes": 3145,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.574626
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-time.c",
+    "code_literal_bytes": 963,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.256248
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-spi.c",
+    "code_literal_bytes": 7468,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.86934
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-timer.c",
+    "code_literal_bytes": 1009,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.263625
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-uart.c",
+    "code_literal_bytes": 10463,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 1.07301
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-touch-ng.c",
+    "code_literal_bytes": 1980,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.285823
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/idf_openthread_mpool_wrapper.c",
+    "code_literal_bytes": 0,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.022577
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/freertos_stats.cpp",
+    "code_literal_bytes": 324,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.198507
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/esp32-hal-touch.c",
+    "code_literal_bytes": 0,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.021189
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/libb64/cdecode.c",
+    "code_literal_bytes": 453,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.082127
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/firmware_msc_fat.c",
+    "code_literal_bytes": 1125,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.18215599999999998
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/wiring_pulse.c",
+    "code_literal_bytes": 182,
+    "has_functional": false,
+    "has_arduino_h": true,
+    "has_serial_h": false,
+    "cpu": 0.173406
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/stdlib_noniso.c",
+    "code_literal_bytes": 987,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.17967899999999998
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/libb64/cencode.c",
+    "code_literal_bytes": 390,
+    "has_functional": false,
+    "has_arduino_h": false,
+    "has_serial_h": false,
+    "cpu": 0.061409
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/main.cpp",
+    "code_literal_bytes": 264,
+    "has_functional": false,
+    "has_arduino_h": true,
+    "has_serial_h": true,
+    "cpu": 1.3153190000000001
+  },
+  {
+    "file": "/home/mt/.arduino15/internal/esp32_esp32_3.3.13_d72258a5b26b1846/cores/esp32/wiring_shift.c",
+    "code_literal_bytes": 193,
+    "has_functional": false,
+    "has_arduino_h": true,
+    "has_serial_h": false,
+    "cpu": 0.167605
+  }
+]

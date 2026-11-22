@@ -1,0 +1,457 @@
+[
+  {
+    "name": "print_stream",
+    "repeat": 0,
+    "cpu": 0.124331,
+    "wall": 0.27510353084653616,
+    "exit_code": 0
+  },
+  {
+    "name": "stdint",
+    "repeat": 0,
+    "cpu": 0.034629999999999994,
+    "wall": 0.07631950406357646,
+    "exit_code": 0
+  },
+  {
+    "name": "without_network",
+    "repeat": 2,
+    "cpu": 1.2209119999999998,
+    "wall": 2.4228673726320267,
+    "exit_code": 0
+  },
+  {
+    "name": "stdint",
+    "repeat": 2,
+    "cpu": 0.034685999999999995,
+    "wall": 0.09710145508870482,
+    "exit_code": 0
+  },
+  {
+    "name": "without_network",
+    "repeat": 1,
+    "cpu": 1.195052,
+    "wall": 2.427236265037209,
+    "exit_code": 0
+  },
+  {
+    "name": "without_network",
+    "repeat": 0,
+    "cpu": 1.206492,
+    "wall": 2.1486482159234583,
+    "exit_code": 0
+  },
+  {
+    "name": "without_stl_helpers",
+    "repeat": 2,
+    "cpu": 1.136824,
+    "wall": 2.2381274341605604,
+    "exit_code": 0
+  },
+  {
+    "name": "stdint",
+    "repeat": 1,
+    "cpu": 0.033255,
+    "wall": 0.04633038863539696,
+    "exit_code": 0
+  },
+  {
+    "name": "algorithm",
+    "repeat": 3,
+    "cpu": 0.455457,
+    "wall": 0.6018889979459345,
+    "exit_code": 0
+  },
+  {
+    "name": "without_serial",
+    "repeat": 2,
+    "cpu": 0.8726129999999999,
+    "wall": 1.4217910547740757,
+    "exit_code": 0
+  },
+  {
+    "name": "stdint",
+    "repeat": 4,
+    "cpu": 0.034171,
+    "wall": 0.07777592167258263,
+    "exit_code": 0
+  },
+  {
+    "name": "hal",
+    "repeat": 0,
+    "cpu": 0.532976,
+    "wall": 0.6647730018012226,
+    "exit_code": 0
+  },
+  {
+    "name": "freertos",
+    "repeat": 2,
+    "cpu": 0.14926999999999999,
+    "wall": 0.3152662920765579,
+    "exit_code": 0
+  },
+  {
+    "name": "full",
+    "repeat": 4,
+    "cpu": 1.277936,
+    "wall": 2.5051461863331497,
+    "exit_code": 0
+  },
+  {
+    "name": "arduino_core_api",
+    "repeat": 4,
+    "cpu": 0.486492,
+    "wall": 0.747100573964417,
+    "exit_code": 0
+  },
+  {
+    "name": "algorithm",
+    "repeat": 2,
+    "cpu": 0.503507,
+    "wall": 1.1716697351075709,
+    "exit_code": 0
+  },
+  {
+    "name": "without_stl_helpers",
+    "repeat": 0,
+    "cpu": 1.1122999999999998,
+    "wall": 2.0825969399884343,
+    "exit_code": 0
+  },
+  {
+    "name": "without_network",
+    "repeat": 3,
+    "cpu": 1.244339,
+    "wall": 2.1900042672641575,
+    "exit_code": 0
+  },
+  {
+    "name": "print_stream",
+    "repeat": 4,
+    "cpu": 0.12126499999999998,
+    "wall": 0.2573606679216027,
+    "exit_code": 0
+  },
+  {
+    "name": "functional",
+    "repeat": 4,
+    "cpu": 0.6600459999999999,
+    "wall": 1.1935144308954477,
+    "exit_code": 0
+  },
+  {
+    "name": "arduino_core_api",
+    "repeat": 2,
+    "cpu": 0.48352399999999995,
+    "wall": 0.6964910021051764,
+    "exit_code": 0
+  },
+  {
+    "name": "without_serial_network_esp",
+    "repeat": 0,
+    "cpu": 0.78447,
+    "wall": 1.2274936847388744,
+    "exit_code": 0
+  },
+  {
+    "name": "print_stream",
+    "repeat": 3,
+    "cpu": 0.11594299999999999,
+    "wall": 0.17588692717254162,
+    "exit_code": 0
+  },
+  {
+    "name": "arduino_core_api",
+    "repeat": 0,
+    "cpu": 0.517605,
+    "wall": 1.0990775329992175,
+    "exit_code": 0
+  },
+  {
+    "name": "algorithm",
+    "repeat": 1,
+    "cpu": 0.449916,
+    "wall": 0.6541774650104344,
+    "exit_code": 0
+  },
+  {
+    "name": "full",
+    "repeat": 0,
+    "cpu": 1.276246,
+    "wall": 2.0434027882292867,
+    "exit_code": 0
+  },
+  {
+    "name": "without_serial_network_esp",
+    "repeat": 2,
+    "cpu": 0.838652,
+    "wall": 1.8664370188489556,
+    "exit_code": 0
+  },
+  {
+    "name": "without_esp",
+    "repeat": 2,
+    "cpu": 1.39107,
+    "wall": 3.3500466998666525,
+    "exit_code": 0
+  },
+  {
+    "name": "hal",
+    "repeat": 1,
+    "cpu": 0.605712,
+    "wall": 1.3564447909593582,
+    "exit_code": 0
+  },
+  {
+    "name": "full",
+    "repeat": 1,
+    "cpu": 1.323619,
+    "wall": 3.5201438940130174,
+    "exit_code": 0
+  },
+  {
+    "name": "freertos",
+    "repeat": 4,
+    "cpu": 0.14934399999999998,
+    "wall": 0.3549869298003614,
+    "exit_code": 0
+  },
+  {
+    "name": "without_serial",
+    "repeat": 3,
+    "cpu": 0.9502249999999999,
+    "wall": 2.286562103778124,
+    "exit_code": 0
+  },
+  {
+    "name": "algorithm",
+    "repeat": 4,
+    "cpu": 0.47746999999999995,
+    "wall": 1.1392040643841028,
+    "exit_code": 0
+  },
+  {
+    "name": "without_esp",
+    "repeat": 3,
+    "cpu": 1.312503,
+    "wall": 2.7458722409792244,
+    "exit_code": 0
+  },
+  {
+    "name": "full",
+    "repeat": 3,
+    "cpu": 1.346266,
+    "wall": 2.547213284764439,
+    "exit_code": 0
+  },
+  {
+    "name": "hal",
+    "repeat": 3,
+    "cpu": 0.612832,
+    "wall": 1.8297012820839882,
+    "exit_code": 0
+  },
+  {
+    "name": "without_serial",
+    "repeat": 0,
+    "cpu": 0.984366,
+    "wall": 2.8099398971535265,
+    "exit_code": 0
+  },
+  {
+    "name": "without_serial",
+    "repeat": 1,
+    "cpu": 0.9749,
+    "wall": 2.6377115570940077,
+    "exit_code": 0
+  },
+  {
+    "name": "print_stream",
+    "repeat": 1,
+    "cpu": 0.12143399999999999,
+    "wall": 0.3127785958349705,
+    "exit_code": 0
+  },
+  {
+    "name": "without_stl_helpers",
+    "repeat": 4,
+    "cpu": 1.189454,
+    "wall": 3.288506653625518,
+    "exit_code": 0
+  },
+  {
+    "name": "without_serial",
+    "repeat": 4,
+    "cpu": 0.954856,
+    "wall": 2.9070122721605003,
+    "exit_code": 0
+  },
+  {
+    "name": "freertos",
+    "repeat": 1,
+    "cpu": 0.14860399999999999,
+    "wall": 0.34292852506041527,
+    "exit_code": 0
+  },
+  {
+    "name": "full",
+    "repeat": 2,
+    "cpu": 1.375312,
+    "wall": 3.4395525488071144,
+    "exit_code": 0
+  },
+  {
+    "name": "without_serial_network_esp",
+    "repeat": 1,
+    "cpu": 0.798322,
+    "wall": 1.2478290903382003,
+    "exit_code": 0
+  },
+  {
+    "name": "arduino_core_api",
+    "repeat": 1,
+    "cpu": 0.533845,
+    "wall": 1.22087580896914,
+    "exit_code": 0
+  },
+  {
+    "name": "without_esp",
+    "repeat": 1,
+    "cpu": 1.429016,
+    "wall": 3.139253973029554,
+    "exit_code": 0
+  },
+  {
+    "name": "hal",
+    "repeat": 4,
+    "cpu": 0.574481,
+    "wall": 1.0260470313951373,
+    "exit_code": 0
+  },
+  {
+    "name": "functional",
+    "repeat": 1,
+    "cpu": 0.6512789999999999,
+    "wall": 0.7790993698872626,
+    "exit_code": 0
+  },
+  {
+    "name": "without_stl_helpers",
+    "repeat": 3,
+    "cpu": 1.1673829999999998,
+    "wall": 2.0007908889092505,
+    "exit_code": 0
+  },
+  {
+    "name": "arduino_core_api",
+    "repeat": 3,
+    "cpu": 0.49662599999999996,
+    "wall": 0.8687798422761261,
+    "exit_code": 0
+  },
+  {
+    "name": "print_stream",
+    "repeat": 2,
+    "cpu": 0.11973400000000001,
+    "wall": 0.2658513141795993,
+    "exit_code": 0
+  },
+  {
+    "name": "functional",
+    "repeat": 2,
+    "cpu": 0.7738379999999999,
+    "wall": 1.8054005377925932,
+    "exit_code": 0
+  },
+  {
+    "name": "without_esp",
+    "repeat": 0,
+    "cpu": 1.3131899999999999,
+    "wall": 2.5610476126894355,
+    "exit_code": 0
+  },
+  {
+    "name": "functional",
+    "repeat": 0,
+    "cpu": 0.7468959999999999,
+    "wall": 1.6976740639656782,
+    "exit_code": 0
+  },
+  {
+    "name": "without_serial_network_esp",
+    "repeat": 3,
+    "cpu": 0.7986979999999999,
+    "wall": 1.1968542030081153,
+    "exit_code": 0
+  },
+  {
+    "name": "without_network",
+    "repeat": 4,
+    "cpu": 1.227431,
+    "wall": 1.9006041181273758,
+    "exit_code": 0
+  },
+  {
+    "name": "without_esp",
+    "repeat": 4,
+    "cpu": 1.3027360000000001,
+    "wall": 2.0219734818674624,
+    "exit_code": 0
+  },
+  {
+    "name": "freertos",
+    "repeat": 0,
+    "cpu": 0.152312,
+    "wall": 0.23367833392694592,
+    "exit_code": 0
+  },
+  {
+    "name": "algorithm",
+    "repeat": 0,
+    "cpu": 0.500478,
+    "wall": 0.89970199810341,
+    "exit_code": 0
+  },
+  {
+    "name": "stdint",
+    "repeat": 3,
+    "cpu": 0.03769,
+    "wall": 0.11848795367404819,
+    "exit_code": 0
+  },
+  {
+    "name": "freertos",
+    "repeat": 3,
+    "cpu": 0.159264,
+    "wall": 0.24749267706647515,
+    "exit_code": 0
+  },
+  {
+    "name": "without_stl_helpers",
+    "repeat": 1,
+    "cpu": 1.1816849999999999,
+    "wall": 1.995396904181689,
+    "exit_code": 0
+  },
+  {
+    "name": "functional",
+    "repeat": 3,
+    "cpu": 0.6557259999999999,
+    "wall": 0.9061088641174138,
+    "exit_code": 0
+  },
+  {
+    "name": "hal",
+    "repeat": 2,
+    "cpu": 0.60119,
+    "wall": 1.2080836379900575,
+    "exit_code": 0
+  },
+  {
+    "name": "without_serial_network_esp",
+    "repeat": 4,
+    "cpu": 0.791183,
+    "wall": 1.1418330748565495,
+    "exit_code": 0
+  }
+]

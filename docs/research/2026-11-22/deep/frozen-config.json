@@ -1,0 +1,14 @@
+{
+  "requested": {
+    "CONFIG_FREERTOS_HZ": 100,
+    "CONFIG_BT_NIMBLE_MAX_CONNECTIONS": 8,
+    "CONFIG_USB_HOST_CONTROL_TRANSFER_MAX_SIZE": 8192
+  },
+  "observed": [
+    "#define CONFIG_FREERTOS_HZ 1000",
+    "#define CONFIG_BT_NIMBLE_MAX_CONNECTIONS 3",
+    "#define CONFIG_USB_HOST_CONTROL_TRANSFER_MAX_SIZE 3000"
+  ],
+  "exit_code": 0,
+  "sdkconfig_header_define_count": 1985
+}
