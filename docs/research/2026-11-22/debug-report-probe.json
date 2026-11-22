@@ -1,0 +1,18 @@
+{
+  "baseline_bin_bytes": 253360,
+  "no_report_bin_bytes": 244384,
+  "baseline_symbols": [
+    "42001cd4 00000461 T printBeforeSetupInfo()",
+    "42003c20 00000020 T String::String(char const*)",
+    "42003c20 00000020 T String::String(char const*)",
+    "4201b354 00000c1b T _dtoa_r",
+    "42015338 00002b2a T _svfprintf_r",
+    "42018328 00002be1 T _vfprintf_r"
+  ],
+  "no_report_symbols": [
+    "4201a8d0 00000005 T printBeforeSetupInfo()",
+    "42019518 00000c1b T _dtoa_r",
+    "420134fc 00002b2a T _svfprintf_r",
+    "420164ec 00002be1 T _vfprintf_r"
+  ]
+}

@@ -1,0 +1,139 @@
+explicit_cold
+1.597801 elf2image [command arguments omitted in excerpt]
+2.471721 Detecting libraries used...
+4.360983 Generating function prototypes...
+7.265104 Compiling core...
+30.003503 Linking everything together...
+32.854784 elf2image [command arguments omitted in excerpt]
+33.531979 gen_esp32part.py [command arguments omitted in excerpt]
+33.714009 merge-bin [command arguments omitted in excerpt]
+34.603118 Sketch uses 253211 bytes (19%) of program storage space. Maximum is 1310720 bytes.
+34.603137 Global variables use 21480 bytes (6%) of dynamic memory, leaving 306200 bytes for local variables. Maximum is 327680 bytes.
+Actual compiler calls: core=60, sketch=1; exit=0; wall=34.791 s
+
+explicit_warm_1
+1.556330 elf2image [command arguments omitted in excerpt]
+2.361317 Detecting libraries used...
+2.361343 Generating function prototypes...
+2.361350 Compiling core...
+2.517339 Linking everything together...
+4.393319 elf2image [command arguments omitted in excerpt]
+5.153050 gen_esp32part.py [command arguments omitted in excerpt]
+5.328901 merge-bin [command arguments omitted in excerpt]
+6.168584 Sketch uses 253211 bytes (19%) of program storage space. Maximum is 1310720 bytes.
+6.168602 Global variables use 21480 bytes (6%) of dynamic memory, leaving 306200 bytes for local variables. Maximum is 327680 bytes.
+Actual compiler calls: core=0, sketch=0; exit=0; wall=6.249 s
+
+explicit_warm_2
+1.307773 elf2image [command arguments omitted in excerpt]
+2.022974 Detecting libraries used...
+2.073759 Generating function prototypes...
+2.073785 Compiling core...
+2.230340 Linking everything together...
+4.080025 elf2image [command arguments omitted in excerpt]
+4.851784 gen_esp32part.py [command arguments omitted in excerpt]
+5.056117 merge-bin [command arguments omitted in excerpt]
+5.753264 Sketch uses 253211 bytes (19%) of program storage space. Maximum is 1310720 bytes.
+5.753290 Global variables use 21480 bytes (6%) of dynamic memory, leaving 306200 bytes for local variables. Maximum is 327680 bytes.
+Actual compiler calls: core=0, sketch=0; exit=0; wall=5.842 s
+
+explicit_edit
+1.389744 elf2image [command arguments omitted in excerpt]
+2.088868 Detecting libraries used...
+3.714201 Generating function prototypes...
+7.231800 Compiling core...
+7.335358 Linking everything together...
+9.573279 elf2image [command arguments omitted in excerpt]
+10.813654 gen_esp32part.py [command arguments omitted in excerpt]
+11.117949 merge-bin [command arguments omitted in excerpt]
+12.437174 Sketch uses 253211 bytes (19%) of program storage space. Maximum is 1310720 bytes.
+12.437191 Global variables use 21480 bytes (6%) of dynamic memory, leaving 306200 bytes for local variables. Maximum is 327680 bytes.
+Actual compiler calls: core=0, sketch=1; exit=0; wall=12.649 s
+
+explicit_newdir
+1.615923 elf2image [command arguments omitted in excerpt]
+2.373597 Detecting libraries used...
+3.664859 Generating function prototypes...
+6.621670 Compiling core...
+33.132220 Linking everything together...
+35.054196 elf2image [command arguments omitted in excerpt]
+35.805904 gen_esp32part.py [command arguments omitted in excerpt]
+35.983719 merge-bin [command arguments omitted in excerpt]
+36.754138 Sketch uses 253211 bytes (19%) of program storage space. Maximum is 1310720 bytes.
+36.754167 Global variables use 21480 bytes (6%) of dynamic memory, leaving 306200 bytes for local variables. Maximum is 327680 bytes.
+Actual compiler calls: core=60, sketch=1; exit=0; wall=36.833 s
+
+default_first
+1.854520 elf2image [command arguments omitted in excerpt]
+2.532949 Detecting libraries used...
+4.189388 Generating function prototypes...
+10.118436 Compiling core...
+58.754847 Archiving built core (caching) in: /home/mt/.cache/arduino/cores/esp32_esp32_esp32s3_09762bd7e6af86ef2462fc672a83d4ad/core.a
+58.754884 Linking everything together...
+60.782935 elf2image [command arguments omitted in excerpt]
+61.456512 gen_esp32part.py [command arguments omitted in excerpt]
+61.710260 merge-bin [command arguments omitted in excerpt]
+62.661665 Sketch uses 253211 bytes (19%) of program storage space. Maximum is 1310720 bytes.
+62.661692 Global variables use 21480 bytes (6%) of dynamic memory, leaving 306200 bytes for local variables. Maximum is 327680 bytes.
+Actual compiler calls: core=60, sketch=1; exit=0; wall=62.843 s
+
+default_warm
+1.444840 elf2image [command arguments omitted in excerpt]
+2.083390 Detecting libraries used...
+2.083394 Generating function prototypes...
+2.083400 Compiling core...
+2.146517 Using precompiled core: /home/mt/.cache/arduino/cores/esp32_esp32_esp32s3_09762bd7e6af86ef2462fc672a83d4ad/core.a
+2.197428 Linking everything together...
+4.563624 elf2image [command arguments omitted in excerpt]
+5.271385 gen_esp32part.py [command arguments omitted in excerpt]
+5.450087 merge-bin [command arguments omitted in excerpt]
+6.876379 Sketch uses 253211 bytes (19%) of program storage space. Maximum is 1310720 bytes.
+6.876400 Global variables use 21480 bytes (6%) of dynamic memory, leaving 306200 bytes for local variables. Maximum is 327680 bytes.
+Actual compiler calls: core=0, sketch=0; exit=0; wall=6.963 s
+
+default_other
+1.524239 elf2image [command arguments omitted in excerpt]
+2.341790 Detecting libraries used...
+3.874310 Generating function prototypes...
+8.121348 Compiling core...
+8.121353 Using precompiled core: /home/mt/.cache/arduino/cores/esp32_esp32_esp32s3_09762bd7e6af86ef2462fc672a83d4ad/core.a
+8.121357 Linking everything together...
+9.982749 elf2image [command arguments omitted in excerpt]
+10.736327 gen_esp32part.py [command arguments omitted in excerpt]
+10.920666 merge-bin [command arguments omitted in excerpt]
+11.707161 Sketch uses 253211 bytes (19%) of program storage space. Maximum is 1310720 bytes.
+11.707187 Global variables use 21480 bytes (6%) of dynamic memory, leaving 306200 bytes for local variables. Maximum is 327680 bytes.
+Actual compiler calls: core=0, sketch=1; exit=0; wall=11.805 s
+
+Archive extraction references from baseline map (before section GC):
+Archive member included to satisfy reference by file (symbol)
+
+/tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(esp32-hal-misc.c.o)
+                              /tmp/tinyesp32-survey-o_sr4ske/build/sketch/Minimal.ino.cpp.o (delay)
+/tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(main.cpp.o)
+                              /tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(esp32-hal-misc.c.o) (loopTaskWDTEnabled)
+/tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(chip-debug-report.cpp.o)
+                              /tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(main.cpp.o) (_Z20printBeforeSetupInfov)
+/tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(esp32-hal-bt.c.o)
+                              /tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(esp32-hal-misc.c.o) (_btInUse_default)
+/tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(esp32-hal-cpu.c.o)
+                              /tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(main.cpp.o) (setCpuFrequencyMhz)
+/tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(esp32-hal-periman.c.o)
+                              /tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(chip-debug-report.cpp.o) (perimanGetTypeName)
+/tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(esp32-hal-psram.c.o)
+                              /tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(chip-debug-report.cpp.o) (psramFound)
+/tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(esp32-hal-uart.c.o)
+                              /tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(main.cpp.o) (uartRegisterConsolePins)
+/tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(Esp.cpp.o)
+                              /tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(chip-debug-report.cpp.o) (ESP)
+/tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(MD5Builder.cpp.o)
+                              /tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(Esp.cpp.o) (_ZN10MD5Builder5beginEv)
+/tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(WString.cpp.o)
+                              /tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(Esp.cpp.o) (_ZN6StringD1Ev)
+/tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(stdlib_noniso.c.o)
+                              /tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(WString.cpp.o) (ltoa)
+/tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(HEXBuilder.cpp.o)
+                              /tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(MD5Builder.cpp.o) (_ZN10HEXBuilder9bytes2hexEPcjPKhj)
+/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_driver_gpio.a(gpio.c.obj)
+                              /tmp/tinyesp32-survey-o_sr4ske/build/core/core.a(esp32-hal-uart.c.o) (gpio_pullup_en)
+/home/mt/.arduino15/internal/esp32_esp32s3-libs_3.3.13_b82f354f73dcd09f/lib/libesp_driver_gpio.a(rtc_io.c.obj)

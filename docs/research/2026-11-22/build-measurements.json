@@ -1,0 +1,584 @@
+[
+  {
+    "name": "explicit_cold",
+    "command": [
+      "arduino-cli",
+      "compile",
+      "--profile",
+      "s3",
+      "--jobs",
+      "4",
+      "--verbose",
+      "--no-color",
+      "--build-path",
+      "/tmp/tinyesp32-survey-o_sr4ske/build",
+      "/tmp/tinyesp32-survey-o_sr4ske/Minimal"
+    ],
+    "seconds": 34.791,
+    "exit_code": 0,
+    "core_compiles": 60,
+    "sketch_compiles": 1,
+    "markers": {
+      "Detecting libraries": [
+        2.471721
+      ],
+      "Generating function prototypes": [
+        4.360983
+      ],
+      "Compiling sketch": [
+        5.489421
+      ],
+      "Compiling libraries": [
+        7.213873
+      ],
+      "Compiling core": [
+        7.265104
+      ],
+      "Linking everything": [
+        30.003503
+      ],
+      "elf2image": [
+        1.597801,
+        32.854784
+      ],
+      "merge-bin": [
+        33.714009
+      ],
+      "Using previously compiled": [],
+      "Using precompiled core": []
+    }
+  },
+  {
+    "name": "explicit_warm_1",
+    "command": [
+      "arduino-cli",
+      "compile",
+      "--profile",
+      "s3",
+      "--jobs",
+      "4",
+      "--verbose",
+      "--no-color",
+      "--build-path",
+      "/tmp/tinyesp32-survey-o_sr4ske/build",
+      "/tmp/tinyesp32-survey-o_sr4ske/Minimal"
+    ],
+    "seconds": 6.249,
+    "exit_code": 0,
+    "core_compiles": 0,
+    "sketch_compiles": 0,
+    "markers": {
+      "Detecting libraries": [
+        2.361317
+      ],
+      "Generating function prototypes": [
+        2.361343
+      ],
+      "Compiling sketch": [
+        2.361346
+      ],
+      "Compiling libraries": [
+        2.361349
+      ],
+      "Compiling core": [
+        2.36135
+      ],
+      "Linking everything": [
+        2.517339
+      ],
+      "elf2image": [
+        1.55633,
+        4.393319
+      ],
+      "merge-bin": [
+        5.328901
+      ],
+      "Using previously compiled": [
+        2.361348,
+        2.415318,
+        2.415338,
+        2.41534,
+        2.415342,
+        2.415343,
+        2.415345,
+        2.415346,
+        2.415346,
+        2.415348,
+        2.415349,
+        2.41535,
+        2.415351,
+        2.415361,
+        2.415362,
+        2.415363,
+        2.415364,
+        2.415365,
+        2.415366,
+        2.415367,
+        2.415368,
+        2.415369,
+        2.415369,
+        2.465628,
+        2.465644,
+        2.465646,
+        2.465648,
+        2.465649,
+        2.465651,
+        2.465653,
+        2.465655,
+        2.465661,
+        2.465662,
+        2.465663,
+        2.465664,
+        2.465664,
+        2.465665,
+        2.465666,
+        2.465667,
+        2.465667,
+        2.465668,
+        2.465671,
+        2.465672,
+        2.465673,
+        2.465673,
+        2.465674,
+        2.465675,
+        2.465675,
+        2.465686,
+        2.465688,
+        2.465689,
+        2.46569,
+        2.465692,
+        2.465694,
+        2.465695,
+        2.517308,
+        2.517328,
+        2.517332,
+        2.517334,
+        2.517335,
+        2.517336,
+        2.517337
+      ],
+      "Using precompiled core": []
+    }
+  },
+  {
+    "name": "explicit_warm_2",
+    "command": [
+      "arduino-cli",
+      "compile",
+      "--profile",
+      "s3",
+      "--jobs",
+      "4",
+      "--verbose",
+      "--no-color",
+      "--build-path",
+      "/tmp/tinyesp32-survey-o_sr4ske/build",
+      "/tmp/tinyesp32-survey-o_sr4ske/Minimal"
+    ],
+    "seconds": 5.842,
+    "exit_code": 0,
+    "core_compiles": 0,
+    "sketch_compiles": 0,
+    "markers": {
+      "Detecting libraries": [
+        2.022974
+      ],
+      "Generating function prototypes": [
+        2.073759
+      ],
+      "Compiling sketch": [
+        2.073781
+      ],
+      "Compiling libraries": [
+        2.073784
+      ],
+      "Compiling core": [
+        2.073785
+      ],
+      "Linking everything": [
+        2.23034
+      ],
+      "elf2image": [
+        1.307773,
+        4.080025
+      ],
+      "merge-bin": [
+        5.056117
+      ],
+      "Using previously compiled": [
+        2.073783,
+        2.073789,
+        2.07379,
+        2.073791,
+        2.073792,
+        2.073793,
+        2.073794,
+        2.073795,
+        2.073796,
+        2.073798,
+        2.073798,
+        2.073799,
+        2.126072,
+        2.126092,
+        2.126095,
+        2.126097,
+        2.126098,
+        2.1261,
+        2.126102,
+        2.126103,
+        2.126103,
+        2.126104,
+        2.126105,
+        2.126106,
+        2.126107,
+        2.126107,
+        2.126109,
+        2.126109,
+        2.12611,
+        2.126112,
+        2.126112,
+        2.179268,
+        2.179289,
+        2.179293,
+        2.179294,
+        2.179296,
+        2.179297,
+        2.179298,
+        2.179298,
+        2.179299,
+        2.1793,
+        2.179304,
+        2.179305,
+        2.179306,
+        2.179307,
+        2.179307,
+        2.179308,
+        2.179309,
+        2.179325,
+        2.179327,
+        2.179329,
+        2.17933,
+        2.179331,
+        2.230299,
+        2.230326,
+        2.230329,
+        2.230331,
+        2.230333,
+        2.230334,
+        2.230335,
+        2.230336,
+        2.230337
+      ],
+      "Using precompiled core": []
+    }
+  },
+  {
+    "name": "explicit_edit",
+    "command": [
+      "arduino-cli",
+      "compile",
+      "--profile",
+      "s3",
+      "--jobs",
+      "4",
+      "--verbose",
+      "--no-color",
+      "--build-path",
+      "/tmp/tinyesp32-survey-o_sr4ske/build",
+      "/tmp/tinyesp32-survey-o_sr4ske/Minimal"
+    ],
+    "seconds": 12.649,
+    "exit_code": 0,
+    "core_compiles": 0,
+    "sketch_compiles": 1,
+    "markers": {
+      "Detecting libraries": [
+        2.088868
+      ],
+      "Generating function prototypes": [
+        3.714201
+      ],
+      "Compiling sketch": [
+        5.108812
+      ],
+      "Compiling libraries": [
+        7.169214
+      ],
+      "Compiling core": [
+        7.2318
+      ],
+      "Linking everything": [
+        7.335358
+      ],
+      "elf2image": [
+        1.389744,
+        9.573279
+      ],
+      "merge-bin": [
+        11.117949
+      ],
+      "Using previously compiled": [
+        7.231823,
+        7.231824,
+        7.231826,
+        7.231827,
+        7.231839,
+        7.23184,
+        7.231842,
+        7.231843,
+        7.231844,
+        7.231845,
+        7.231845,
+        7.231846,
+        7.231847,
+        7.231848,
+        7.231849,
+        7.23185,
+        7.23185,
+        7.231851,
+        7.231852,
+        7.231853,
+        7.281883,
+        7.281897,
+        7.2819,
+        7.281902,
+        7.281903,
+        7.281904,
+        7.281906,
+        7.281907,
+        7.281908,
+        7.281909,
+        7.28191,
+        7.281911,
+        7.281911,
+        7.281912,
+        7.281913,
+        7.281914,
+        7.281914,
+        7.281915,
+        7.281917,
+        7.281917,
+        7.281918,
+        7.281918,
+        7.281919,
+        7.28192,
+        7.28192,
+        7.335311,
+        7.335329,
+        7.335332,
+        7.335333,
+        7.335335,
+        7.335338,
+        7.335339,
+        7.335341,
+        7.335348,
+        7.33535,
+        7.335351,
+        7.335352,
+        7.335354,
+        7.335355,
+        7.335356,
+        7.335356
+      ],
+      "Using precompiled core": []
+    }
+  },
+  {
+    "name": "explicit_newdir",
+    "command": [
+      "arduino-cli",
+      "compile",
+      "--profile",
+      "s3",
+      "--jobs",
+      "4",
+      "--verbose",
+      "--no-color",
+      "--build-path",
+      "/tmp/tinyesp32-survey-o_sr4ske/build",
+      "--build-path",
+      "/tmp/tinyesp32-survey-o_sr4ske/build2",
+      "/tmp/tinyesp32-survey-o_sr4ske/Minimal"
+    ],
+    "seconds": 36.833,
+    "exit_code": 0,
+    "core_compiles": 60,
+    "sketch_compiles": 1,
+    "markers": {
+      "Detecting libraries": [
+        2.373597
+      ],
+      "Generating function prototypes": [
+        3.664859
+      ],
+      "Compiling sketch": [
+        5.025444
+      ],
+      "Compiling libraries": [
+        6.62165
+      ],
+      "Compiling core": [
+        6.62167
+      ],
+      "Linking everything": [
+        33.13222
+      ],
+      "elf2image": [
+        1.615923,
+        35.054196
+      ],
+      "merge-bin": [
+        35.983719
+      ],
+      "Using previously compiled": [],
+      "Using precompiled core": []
+    }
+  },
+  {
+    "name": "default_first",
+    "command": [
+      "arduino-cli",
+      "compile",
+      "--profile",
+      "s3",
+      "--jobs",
+      "4",
+      "--verbose",
+      "--no-color",
+      "/tmp/tinyesp32-survey-o_sr4ske/Minimal"
+    ],
+    "seconds": 62.843,
+    "exit_code": 0,
+    "core_compiles": 60,
+    "sketch_compiles": 1,
+    "markers": {
+      "Detecting libraries": [
+        2.532949
+      ],
+      "Generating function prototypes": [
+        4.189388
+      ],
+      "Compiling sketch": [
+        6.802574
+      ],
+      "Compiling libraries": [
+        10.066133
+      ],
+      "Compiling core": [
+        10.118436
+      ],
+      "Linking everything": [
+        58.754884
+      ],
+      "elf2image": [
+        1.85452,
+        60.782935
+      ],
+      "merge-bin": [
+        61.71026
+      ],
+      "Using previously compiled": [],
+      "Using precompiled core": []
+    }
+  },
+  {
+    "name": "default_warm",
+    "command": [
+      "arduino-cli",
+      "compile",
+      "--profile",
+      "s3",
+      "--jobs",
+      "4",
+      "--verbose",
+      "--no-color",
+      "/tmp/tinyesp32-survey-o_sr4ske/Minimal"
+    ],
+    "seconds": 6.963,
+    "exit_code": 0,
+    "core_compiles": 0,
+    "sketch_compiles": 0,
+    "markers": {
+      "Detecting libraries": [
+        2.08339
+      ],
+      "Generating function prototypes": [
+        2.083394
+      ],
+      "Compiling sketch": [
+        2.083397
+      ],
+      "Compiling libraries": [
+        2.083399
+      ],
+      "Compiling core": [
+        2.0834
+      ],
+      "Linking everything": [
+        2.197428
+      ],
+      "elf2image": [
+        1.44484,
+        4.563624
+      ],
+      "merge-bin": [
+        5.450087
+      ],
+      "Using previously compiled": [
+        2.083398
+      ],
+      "Using precompiled core": [
+        2.146517
+      ]
+    }
+  },
+  {
+    "name": "default_other",
+    "command": [
+      "arduino-cli",
+      "compile",
+      "--profile",
+      "s3",
+      "--jobs",
+      "4",
+      "--verbose",
+      "--no-color",
+      "/tmp/tinyesp32-survey-o_sr4ske/Other"
+    ],
+    "seconds": 11.805,
+    "exit_code": 0,
+    "core_compiles": 0,
+    "sketch_compiles": 1,
+    "markers": {
+      "Detecting libraries": [
+        2.34179
+      ],
+      "Generating function prototypes": [
+        3.87431
+      ],
+      "Compiling sketch": [
+        5.765514
+      ],
+      "Compiling libraries": [
+        8.121331
+      ],
+      "Compiling core": [
+        8.121348
+      ],
+      "Linking everything": [
+        8.121357
+      ],
+      "elf2image": [
+        1.524239,
+        9.982749
+      ],
+      "merge-bin": [
+        10.920666
+      ],
+      "Using previously compiled": [],
+      "Using precompiled core": [
+        8.121353
+      ]
+    }
+  }
+]

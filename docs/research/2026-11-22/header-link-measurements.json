@@ -1,0 +1,56 @@
+{
+  "stdint_preprocess": {
+    "seconds": [
+      0.0364,
+      0.1014,
+      0.0414
+    ],
+    "median": 0.0414,
+    "bytes": 6461,
+    "lines": 229,
+    "include_events": 7
+  },
+  "stdint_compile": {
+    "seconds": [
+      0.0586,
+      0.0581,
+      0.0926
+    ],
+    "median": 0.0586
+  },
+  "arduino_preprocess": {
+    "seconds": [
+      0.7547,
+      1.3176,
+      1.277
+    ],
+    "median": 1.277,
+    "bytes": 2062821,
+    "lines": 68608,
+    "include_events": 430
+  },
+  "arduino_compile": {
+    "seconds": [
+      2.8826,
+      4.5648,
+      6.9116
+    ],
+    "median": 4.5648
+  },
+  "link_baseline": {
+    "seconds": [
+      7.0469,
+      7.5201,
+      7.6558
+    ],
+    "median": 7.5201
+  },
+  "link_no_cref": {
+    "seconds": [
+      4.2427,
+      5.786,
+      5.1396
+    ],
+    "median": 5.1396
+  }
+}
